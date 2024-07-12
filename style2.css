@@ -1,0 +1,18 @@
+#principal{
+    background-color: black;
+    width: 100vw;
+    height: 80vw;
+    overflow: hidden;
+}
+#fondo2{
+    background-size: 100vw;
+    background-image: url("pinctures/pexels-pixabay-159400@2x.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+  
+}
+#img{
+    width: 100vw;
+    height: 80vw;
+}
