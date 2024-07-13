@@ -2,9 +2,26 @@ body{
     background-color: black;
     
 }
+@font-face {
+    font-family: letraBold;
+    src: url("Type font/MYRIADPRO-BOLD.OTF");
+}
 #principal{
     margin: -1vw auto;
-    background-color: white;
+    background-color:white;
     width:100vw;
     height: 100vw;
+}
+#text1{
+    margin: 1.5vw 39vw;
+    font-size: 2vw;
+    font-family: letraBold;
+    color: black;
+}
+#barra{
+    width: 100vw;
+    height: 5vw;
+    background-color: white;
+    box-shadow: 0 0.3vw 0.2vw #b9b8b8,
+    0 0.1vw 0.2vw  #6b6969;
 }

@@ -3,6 +3,7 @@
     width: 100vw;
     height: auto;
     overflow: hidden;
+    margin:-1vw;
 }
 #fondo2{
     background-size: 100vw;
