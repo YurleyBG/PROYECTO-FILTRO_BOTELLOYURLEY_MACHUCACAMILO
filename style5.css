@@ -1,0 +1,52 @@
+.contenedor{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#imagenFondo{
+    overflow: hidden;
+    background-color: black;
+    margin-top: 7vw;
+    width: 98vw;
+    height: 65vw;
+    margin-left: -4vw;
+}
+
+.contenedor1{
+    margin-top: 3vw;
+    position: absolute;
+    width: 47vw;
+    height: 27vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3vw;
+    flex-direction: column;
+}
+#imagenKario{
+    margin-top: 1vw;
+    width: 5vw;
+    height: 5vw;
+}
+#Titulo{
+    font-size: 2vw;
+    font-family:tipoletra;
+}
+#textoDeIngreso{
+    margin-top: -1vw;
+    font-size: 0.8vw;
+    color: rgb(155, 155, 155);
+}
+#imagenPerfil{
+    width: 9vw;
+    height: 9vw;
+}
+#Textonombre{
+    font-size: 1.5vw;
+    
+}
