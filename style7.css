@@ -1,27 +1,201 @@
-body{
-    background-color: black;
-    
-}
+
 @font-face {
     font-family: letraBold;
     src: url("Type font/MYRIADPRO-BOLD.OTF");
 }
+@font-face {
+    font-family: letralight;
+    src: url("Type font/MyriadPro-Light.otf");
+}
 #principal{
+    margin-left: -2vw;
     margin: -1vw auto;
     background-color:white;
     width:100vw;
-    height: 100vw;
+    height: 46vw;
+    overflow: hidden;
 }
 #text1{
-    margin: 1.5vw 39vw;
+    margin: 1.5vw 40vw;
     font-size: 2vw;
     font-family: letraBold;
     color: black;
 }
+#text2{
+    margin: -1vw 26vw;
+    font-size: 1.3vw;
+    font-family: letralight;
+    color: black;
+    width: 65vw;
+   
+}
 #barra{
+    display: flex;
     width: 100vw;
     height: 5vw;
     background-color: white;
     box-shadow: 0 0.3vw 0.2vw #b9b8b8,
     0 0.1vw 0.2vw  #6b6969;
+    text-align: center;
+    justify-content: space-between;
+}
+#container{
+    position: relative;
+    left: 2vw;
+    font-size: 1.5;
+    font-family: letraBold;
+    margin: 2vw ;
+    width: -1vw;
+  
+}
+#img{
+    position: relative;
+    top: -0.1vw;
+    left: 5vw;
+    width: 2vw;
+    height: 2vw;
+}
+#img3{
+    position: absolute;
+    left: -6vw;
+    top:-0.5vw;
+    width: 2.2vw;
+    height: 2.2vw;
+}
+#img1{
+    position: relative;
+    left:  1vw;
+    width: 1.2vw;
+    height: 1.2vw;
+}
+#img2{
+    position: relative;
+    top: -1vw;
+    left: -3vw;
+    width: 3vw;
+    height: 3vw;
+}
+#container1{
+   
+    position: relative;
+    top: 2.2vw;
+    left: -1vw;
+}
+#container2{
+    position: relative;
+    left: -5.5vw;
+    font-size: 1.5;
+    font-family: letraBold;
+    margin: 2vw ;
+}
+#container3{
+    position: relative;
+    left: -2vw;
+    font-size: 1.5;
+    font-family: letraBold;
+    margin: 2vw ;
+}
+#container4{
+    position: relative;
+    left: -4vw;
+    font-size: 1.5;
+    font-family: letraBold;
+    margin: 2vw ;
+}
+#container5{
+    position: relative;
+    left: -5vw;
+    font-size: 1.5;
+    font-family: letraBold;
+    margin: 2vw ;
+}
+
+#cajita1{
+    margin: auto;
+    position: relative;
+    margin-top:-2vw;
+    width: 87vw;
+    height: 3.5vw;
+    border: 1px solid black;
+    border-radius: 5vw;
+
+}
+#cajita{
+    margin: auto ;
+    margin-top: 1vw;
+    width: 87vw;
+    height: 3.5vw;
+    border: 1px solid black;
+    border-radius: 5vw;
+
+}
+#boton1{
+    width:20vw;
+    height:3vw;
+    background-color:orangered;
+    border-radius: 5vw;
+    color:white;
+    position: relative;
+    top:-12vw;
+    left: 40vw;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    position: relative;
+    top:0.7vw;
+    font-family: letralight;
+}
+#textcontainer{
+    display: flex;
+    width: 84vw;
+    height: 2vw;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3vw;
+    font-family: letraBold;
+
+}
+#imgham{
+    position: relative;
+    left: 94vw;
+    top:1vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham1{
+    position: relative;
+    left: 94vw;
+    top:-21.5vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham2{
+    position: relative;
+    left: 94vw;
+    top:-19vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham3{
+    position: relative;
+    left: 94vw;
+    top:-16.8vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham4{
+    position: relative;
+    left: 94vw;
+    top:-14.5vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham5{
+    position: relative;
+    left: 94vw;
+    top:-12vw;
+    width: 2vw;
+    height: 2vw;
 }
