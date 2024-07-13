@@ -1,7 +1,4 @@
-body{
-    background-color: black;
-    
-}
+
 @font-face {
     font-family: letraBold;
     src: url("Type font/MYRIADPRO-BOLD.OTF");
@@ -11,10 +8,12 @@ body{
     src: url("Type font/MyriadPro-Light.otf");
 }
 #principal{
+    margin-left: -2vw;
     margin: -1vw auto;
     background-color:white;
     width:100vw;
-    height: 50vw;
+    height: 46vw;
+    overflow: hidden;
 }
 #text1{
     margin: 1.5vw 40vw;
@@ -114,8 +113,8 @@ body{
 #cajita1{
     margin: auto;
     position: relative;
-    margin-top:6vw;
-    width: 85vw;
+    margin-top:-2vw;
+    width: 87vw;
     height: 3.5vw;
     border: 1px solid black;
     border-radius: 5vw;
@@ -124,7 +123,7 @@ body{
 #cajita{
     margin: auto ;
     margin-top: 1vw;
-    width: 85vw;
+    width: 87vw;
     height: 3.5vw;
     border: 1px solid black;
     border-radius: 5vw;
@@ -132,7 +131,71 @@ body{
 }
 #boton1{
     width:20vw;
-    height:2vw;
+    height:3vw;
     background-color:orangered;
-    
+    border-radius: 5vw;
+    color:white;
+    position: relative;
+    top:-12vw;
+    left: 42vw;
+    text-align: center;
+    justify-content: center;
+}
+p{
+    position: relative;
+    top:0.7vw;
+    font-family: letralight;
+}
+#textcontainer{
+    display: flex;
+    width: 84vw;
+    height: 2vw;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3vw;
+    font-family: letraBold;
+
+}
+#imgham{
+    position: relative;
+    left: 94vw;
+    top:1vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham1{
+    position: relative;
+    left: 94vw;
+    top:-21.5vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham2{
+    position: relative;
+    left: 94vw;
+    top:-19vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham3{
+    position: relative;
+    left: 94vw;
+    top:-16.8vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham4{
+    position: relative;
+    left: 94vw;
+    top:-14.5vw;
+    width: 2vw;
+    height: 2vw;
+}
+#imgham5{
+    position: relative;
+    left: 94vw;
+    top:-12vw;
+    width: 2vw;
+    height: 2vw;
 }
