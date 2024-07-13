@@ -8,7 +8,6 @@
     src: url("Type font/MyriadPro-Light.otf");
 }
 
-
 .contenedor{
     width: 100vw;
     height: 50vw;
@@ -16,14 +15,14 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin:-1vw;
 }
 #imagenFondo{
     overflow: hidden;
     background-color: black;
+    width: 100vw;
+    height: 63vw;
     margin-top: 7vw;
-    width: 98vw;
-    height: 65vw;
-    margin-left: -4vw;
 }
 
 .contenedor1{
