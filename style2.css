@@ -1,7 +1,7 @@
 #principal{
     background-color: black;
     width: 100vw;
-    height: 73vw;
+    height:55vw;
     overflow: hidden;
     margin:-1vw;
 }
@@ -10,6 +10,7 @@
     background-image: url("pinctures/pexels-pixabay-159400@2x.png");
     background-repeat: no-repeat;
     width: 100vw;
-    height: 100vw;
+    height:70vw;
+    margin-top: -5vw;
   
 }
