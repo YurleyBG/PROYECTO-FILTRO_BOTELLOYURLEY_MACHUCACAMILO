@@ -111,23 +111,302 @@
 }
 
 #cajita1{
+    display: flex;
+    justify-content: space-between;
     margin: auto;
     position: relative;
     margin-top:-2vw;
-    width: 87vw;
+    width: 90vw;
     height: 3.5vw;
     border: 1px solid black;
     border-radius: 5vw;
 
 }
+#cofre1{
+    display: flex;
+    justify-content: space-between;
+    width: 88vw;
+    height: 3.5vw;
+    margin: 1vw auto;
+    font-family: letralight;
+}
+.conte2{
+    position: relative;
+    left: -1.7vw;
+   
+}
+.conte3{
+    position: relative;
+    left: -5vw;
+   
+}
+.conte4{
+    position: relative;
+    left: -4vw;
+   
+}
+.conte5{
+    position: relative;
+    left: -1.8vw;
+   
+}
+.conte6{
+    position: relative;
+    left: 0.8vw;
+   
+}
+.conte7{
+    position: relative;
+    left: 0.6vw;
+   
+}
+.conte8{
+    position: relative;
+    left: 2vw;
+   
+}
+.conte9{
+    position: relative;
+    left: -1.5vw;
+   
+}
+.conte10{
+    position: relative;
+    left: -6vw;
+   
+}
+.conte11{
+    position: relative;
+    left: -5vw;
+   
+}
+.conte12{
+    position: relative;
+    left: -3vw;
+   
+}
+.conte13{
+    position: relative;
+    left: -0.5vw;
+   
+}
+.conte14{
+    position: relative;
+    left: -0.5vw;
+   
+}
+.conte15{
+    position: relative;
+    left: 0.5vw;
+   
+}
+.conte16{
+    position: relative;
+    left: -2.8vw;
+   
+}
+.conte17{
+    position: relative;
+    left: -7.5vw;
+   
+}
+.conte18{
+    position: relative;
+    left: -6.8vw;
+   
+}
+.conte19{
+    position: relative;
+    left: -4vw;
+   
+}
+.conte20{
+    position: relative;
+    left: -0.5vw;
+   
+}
+.conte21{
+    position: relative;
+    left: 0.1vw;
+   
+}
+.conte22{
+    position: relative;
+    left: 1.8vw;
+   
+}
+.conte23{
+    position: relative;
+    left: -3.6vw;
+   
+}
+.conte24{
+    position: relative;
+    left: -7.5vw;
+   
+}
+.conte25{
+    position: relative;
+    left: -7.5vw;
+   
+}
+.conte26{
+    position: relative;
+    left: -5vw;
+   
+}
+.conte27{
+    position: relative;
+    left: -2vw;
+   
+}
+.conte28{
+    position: relative;
+    left: -0.2vw;
+   
+}
+.conte29{
+    position: relative;
+    left: 1.2vw;
+   
+}
+.conte30{
+    position: relative;
+    left: -5vw;
+   
+}
+.conte31{
+    position: relative;
+    left: -9vw;
+   
+}
+.conte32{
+    position: relative;
+    left: -7.5vw;
+   
+}
+.conte33{
+    position: relative;
+    left: -4.2vw;
+   
+}
+.conte34{
+    position: relative;
+    left: -0.7vw;
+   
+}
+.conte35{
+    position: relative;
+    left: -1vw;
+   
+}
+.conte36{
+    position: relative;
+    left: 1.2vw;
+   
+}
+.conte37{
+    position: relative;
+    left: -3vw;
+   
+}
+.conte38{
+    position: relative;
+    left: -6.9vw;
+   
+}
+.conte39{
+    position: relative;
+    left: -5.8vw;
+   
+}
+.conte40{
+    position: relative;
+    left: -2.5vw;
+   
+}
+.conte41{
+    position: relative;
+    left: 0.5vw;
+   
+}
+.conte42{
+    position: relative;
+    left: 0.5vw;
+   
+}
+.conte43{
+    position: relative;
+    left: 2vw;
+   
+}
+#circle{
+    position:relative;
+    top:-0.7vw;
+    width:2vw;
+    height:2vw;
+    border-radius: 50%;
+    border: 7px solid red;
+    font-size: 1vw;
+    text-align: center;
+    justify-content: center;
+}
+#parteb{
+    position:absolute;
+    left:1.3vw;
+    margin-top: -3.9vw;
+    width: 0.4vw;
+    height:0.8vw;
+    background-color: white;
+    border-radius: 8%;
+}
+#circle2{
+    position:relative;
+    top:-0.7vw;
+    width:2vw;
+    height:2vw;
+    border-radius: 50%;
+    border: 7px solid rgb(14, 209, 14);
+    font-size: 1vw;
+    text-align: center;
+    justify-content: center;
+}
+#parteb2{
+    position:absolute;
+    left:1.3vw;
+    margin-top: -3.8vw;
+    width: 0.4vw;
+    height:0.8vw;
+    background-color: white;
+    border-radius: 8%;
+}
+#circle3{
+    position:relative;
+    top:-0.7vw;
+    width:2vw;
+    height:2vw;
+    border-radius: 50%;
+    border: 7px solid rgb(255, 148, 8);
+    font-size: 1vw;
+    text-align: center;
+    justify-content: center;
+}
+#parteb3{
+    position:absolute;
+    left:1.3vw;
+    margin-top: -3.75vw;
+    width: 0.4vw;
+    height:0.8vw;
+    background-color: white;
+    border-radius: 8%;
+}
 #cajita{
     margin: auto ;
     margin-top: 1vw;
-    width: 87vw;
+    width: 90vw;
     height: 3.5vw;
     border: 1px solid black;
     border-radius: 5vw;
-
 }
 #boton1{
     width:20vw;
@@ -148,53 +427,52 @@ p{
 }
 #textcontainer{
     display: flex;
-    width: 84vw;
+    width: 86vw;
     height: 2vw;
     text-align: center;
     justify-content: space-between;
     margin: auto;
     margin-top: 3vw;
     font-family: letraBold;
-
 }
 #imgham{
     position: relative;
-    left: 94vw;
+    left: 95.5vw;
     top:1vw;
     width: 2vw;
     height: 2vw;
 }
 #imgham1{
     position: relative;
-    left: 94vw;
+    left: 95.5vw;
     top:-21.5vw;
     width: 2vw;
     height: 2vw;
 }
 #imgham2{
     position: relative;
-    left: 94vw;
+    left: 95.5vw;
     top:-19vw;
     width: 2vw;
     height: 2vw;
 }
 #imgham3{
     position: relative;
-    left: 94vw;
+    left: 95.5vw;
     top:-16.8vw;
     width: 2vw;
     height: 2vw;
 }
 #imgham4{
     position: relative;
-    left: 94vw;
+    left: 95.5vw;
     top:-14.5vw;
     width: 2vw;
     height: 2vw;
 }
 #imgham5{
     position: relative;
-    left: 94vw;
+    left: 95.5vw;
     top:-12vw;
     width: 2vw;
     height: 2vw;
