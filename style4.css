@@ -1,4 +1,13 @@
 
+@font-face {
+    font-family: letraRegular;
+    src: url("Type font/Myriad\ Pro\ Regular.ttf");
+}
+@font-face {
+    font-family: letraLight;
+    src: url("Type font/MyriadPro-Light.otf");
+}
+
 
 .contenedor{
     width: 100vw;
@@ -37,19 +46,20 @@
 }
 #Titulo{
     font-size: 2vw;
-    font-family:tipoletra;
+    font-family:letraRegular;
 }
 #textoDeIngreso{
+    font-family: letraLight;
     margin-top: -1vw;
     font-size: 0.8vw;
-    color: rgb(155, 155, 155);
+    color: #000000;
 }
 .casillaUsuario{
     margin-top: -1vw;
     width: 30vw;
     height: 2vw;
     border-radius: 0.8vw;
-    border: solid 1px rgb(155, 155, 155);
+    border: solid 1px #707070;
 }
 .requerimientos{
     margin-left: 7.5vw;
@@ -59,7 +69,8 @@
     
 }
 #usuario{
-    color: rgb(155, 155, 155);
+    font-family: letraLight;
+    color: #000000;
     font-size: 1vw;
     display: flex;
 }
@@ -67,7 +78,7 @@
     text-decoration: none;
 }
 .boton{
-   
+    font-family: letraLight;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -81,6 +92,7 @@
     margin-left: 17vw;
 }
 #textoFinal{
+    font-family: letraLight;
     font-size: 0.7vw;
-    color: rgb(155, 155, 155);
+    color: #000000;
 }

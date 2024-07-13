@@ -1,3 +1,12 @@
+@font-face {
+    font-family: letraRegular;
+    src: url("Type font/Myriad\ Pro\ Regular.ttf");
+}
+@font-face {
+    font-family: letraLight;
+    src: url("Type font/MyriadPro-Light.otf");
+}
+
 .contenedor{
     width: 100vw;
     height: 50vw;
@@ -10,13 +19,17 @@
     overflow: hidden;
     background-color: black;
     margin-top: 7vw;
-    width: 98vw;
+    width: 100vw;
     height: 65vw;
     margin-left: -4vw;
+    
+}
+.contenido{
+    height: 28vw;
 }
 
 .contenedor1{
-    margin-top: 3vw;
+    
     position: absolute;
     width: 47vw;
     height: 27vw;
@@ -29,18 +42,19 @@
     flex-direction: column;
 }
 #imagenKario{
-    margin-top: 1vw;
+    margin-top: 1.5vw;
     width: 5vw;
     height: 5vw;
 }
 #Titulo{
-    font-size: 2vw;
-    font-family:tipoletra;
+    font-size: 1.5vw;
+    font-family: letraRegular;
 }
 #textoDeIngreso{
     margin-top: -1vw;
     font-size: 0.8vw;
-    color: rgb(155, 155, 155);
+    color: #000000;
+    font-family: letraLight;
 }
 #imagenPerfil{
     width: 9vw;
@@ -48,5 +62,6 @@
 }
 #Textonombre{
     font-size: 1.5vw;
+    font-family: letraRegular;
     
 }
