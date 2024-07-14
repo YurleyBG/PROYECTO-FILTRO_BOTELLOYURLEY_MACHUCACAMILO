@@ -12,8 +12,9 @@
     margin: -1vw auto;
     background-color:white;
     width:100vw;
-    height: 46vw;
+    height: 48vw;
     overflow: hidden;
+   
 }
 #text1{
     margin: 1.5vw 40vw;
@@ -123,6 +124,11 @@
     border-radius: 5vw;
 
 }
+.porcentaje{
+    position: relative;
+    top: -0.6vw;
+    left:0.01vw;
+}
 #cofre1{
     display: flex;
     justify-content: space-between;
@@ -149,7 +155,7 @@
 }
 .conte5{
     position: relative;
-    left: -1.8vw;
+    left: -2vw;
    
 }
 .conte6{
@@ -159,12 +165,12 @@
 }
 .conte7{
     position: relative;
-    left: 0.6vw;
+    left: 0.7vw;
    
 }
 .conte8{
     position: relative;
-    left: 2vw;
+    left: 1.8vw;
    
 }
 .conte9{
@@ -199,7 +205,7 @@
 }
 .conte15{
     position: relative;
-    left: 0.5vw;
+    left: 0.7vw;
    
 }
 .conte16{
@@ -214,12 +220,12 @@
 }
 .conte18{
     position: relative;
-    left: -6.8vw;
+    left: -6.5vw;
    
 }
 .conte19{
     position: relative;
-    left: -4vw;
+    left: -3.8vw;
    
 }
 .conte20{
@@ -229,7 +235,7 @@
 }
 .conte21{
     position: relative;
-    left: 0.1vw;
+    left: -0.3vw;
    
 }
 .conte22{
@@ -249,12 +255,12 @@
 }
 .conte25{
     position: relative;
-    left: -7.5vw;
+    left: -7.1vw;
    
 }
 .conte26{
     position: relative;
-    left: -5vw;
+    left: -4.8vw;
    
 }
 .conte27{
@@ -264,7 +270,7 @@
 }
 .conte28{
     position: relative;
-    left: -0.2vw;
+    left: -0.5vw;
    
 }
 .conte29{
@@ -279,12 +285,12 @@
 }
 .conte31{
     position: relative;
-    left: -8.5vw;
+    left: -8.6vw;
    
 }
 .conte32{
     position: relative;
-    left: -7.3vw;
+    left: -7vw;
    
 }
 .conte33{
@@ -294,12 +300,12 @@
 }
 .conte34{
     position: relative;
-    left: -0.7vw;
+    left: -0.8vw;
    
 }
 .conte35{
     position: relative;
-    left: -1vw;
+    left: -1.15vw;
    
 }
 .conte36{
@@ -309,12 +315,12 @@
 }
 .conte37{
     position: relative;
-    left: -3vw;
+    left: -3.5vw;
    
 }
 .conte38{
     position: relative;
-    left: -6.9vw;
+    left: -7vw;
    
 }
 .conte39{
@@ -324,27 +330,27 @@
 }
 .conte40{
     position: relative;
-    left: -2.5vw;
+    left: -2.9vw;
    
 }
 .conte41{
     position: relative;
-    left: 0.5vw;
+    left:0.15vw;
    
 }
 .conte42{
     position: relative;
-    left: 0.5vw;
+    left: -0.4vw;
    
 }
 .conte43{
     position: relative;
-    left: 2vw;
+    left: 1.8vw;
    
 }
 #circle{
     position:relative;
-    top:-0.7vw;
+    top:-0.8vw;
     width:2vw;
     height:2vw;
     border-radius: 50%;
@@ -355,7 +361,7 @@
 }
 #parteb{
     position:absolute;
-    left:1.3vw;
+    left:1.2vw;
     margin-top: -3.9vw;
     width: 0.4vw;
     height:0.8vw;
@@ -375,10 +381,10 @@
 }
 #parteb2{
     position:absolute;
-    left:1.3vw;
+    left:1.2vw;
     margin-top: -3.8vw;
     width: 0.4vw;
-    height:0.8vw;
+    height:0.7vw;
     background-color: white;
     border-radius: 8%;
 }
@@ -415,13 +421,13 @@
     height:3vw;
     background-color:orangered;
     border-radius: 5vw;
-    color:white;
+
     position: relative;
     top:-1vw;
     left: 40vw;
     text-align: center;
     justify-content: center;
-    font-size: 1,5vw;
+ 
 }
 p{
     position: relative;
@@ -437,10 +443,6 @@ p{
     margin: auto;
     margin-top: 3vw;
     font-family: letraBold;
-}
-#imgham{
-    width: 2vw;
-    height: 2vw;
 }
 #imgham1{
     
@@ -459,19 +461,19 @@ p{
 }
 .menus{
     position: absolute;
-    top: 14.5vw;
+    top: 13.5vw;
     left: 96.5vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 2.7vw;
+    gap: 2.6vw;
+    height: 28vw;
 }
 #imgham3{
     width: 2vw;
     height: 2vw;
 }
 #imgham4{
-    
     width: 2vw;
     height: 2vw;
 }
@@ -483,6 +485,10 @@ p{
     position: relative;
     font-size: 1.2vw;
     top: -2vw;
+}
+#textboton{
+    color:white;
+    font-size: 1.5vw;
 }
 .contenido{
     margin-top: 4.5vw;
