@@ -350,7 +350,7 @@
 }
 #circle{
     position:relative;
-    top:-0.7vw;
+    top:-0.8vw;
     width:2vw;
     height:2vw;
     border-radius: 50%;
@@ -361,7 +361,7 @@
 }
 #parteb{
     position:absolute;
-    left:1.3vw;
+    left:1.2vw;
     margin-top: -3.9vw;
     width: 0.4vw;
     height:0.8vw;
@@ -381,10 +381,10 @@
 }
 #parteb2{
     position:absolute;
-    left:1.3vw;
+    left:1.2vw;
     margin-top: -3.8vw;
     width: 0.4vw;
-    height:0.8vw;
+    height:0.7vw;
     background-color: white;
     border-radius: 8%;
 }
