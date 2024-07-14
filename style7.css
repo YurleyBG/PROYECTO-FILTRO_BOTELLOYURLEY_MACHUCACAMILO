@@ -23,7 +23,7 @@
 }
 #text2{
     margin: -1vw 26vw;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     font-family: letralight;
     color: black;
     width: 65vw;
@@ -38,6 +38,7 @@
     0 0.1vw 0.2vw  #6b6969;
     text-align: center;
     justify-content: space-between;
+    font-size: 1.4vw;
 }
 #container{
     position: relative;
@@ -51,7 +52,7 @@
 #img{
     position: relative;
     top: -0.1vw;
-    left: 5vw;
+    left: 4vw;
     width: 2vw;
     height: 2vw;
 }
@@ -76,7 +77,8 @@
     height: 3vw;
 }
 #container1{
-   
+    position: absolute;
+    font-size: 1.5vw;
     position: relative;
     top: 2.2vw;
     left: -1vw;
@@ -129,6 +131,7 @@
     height: 3.5vw;
     margin: 1vw auto;
     font-family: letralight;
+    font-size: 1vw;
 }
 .conte2{
     position: relative;
@@ -277,12 +280,12 @@
 }
 .conte31{
     position: relative;
-    left: -9vw;
+    left: -8.5vw;
    
 }
 .conte32{
     position: relative;
-    left: -7.5vw;
+    left: -7.3vw;
    
 }
 .conte33{
@@ -346,7 +349,7 @@
     width:2vw;
     height:2vw;
     border-radius: 50%;
-    border: 7px solid red;
+    border: 0.5vw solid red;
     font-size: 1vw;
     text-align: center;
     justify-content: center;
@@ -366,7 +369,7 @@
     width:2vw;
     height:2vw;
     border-radius: 50%;
-    border: 7px solid rgb(14, 209, 14);
+    border: 0.5vw solid rgb(14, 209, 14);
     font-size: 1vw;
     text-align: center;
     justify-content: center;
@@ -386,7 +389,7 @@
     width:2vw;
     height:2vw;
     border-radius: 50%;
-    border: 7px solid rgb(255, 148, 8);
+    border: 0.5vw solid rgb(255, 148, 8);
     font-size: 1vw;
     text-align: center;
     justify-content: center;
@@ -415,7 +418,7 @@
     border-radius: 5vw;
     color:white;
     position: relative;
-    top:-12vw;
+    top:-25vw;
     left: 40vw;
     text-align: center;
     justify-content: center;
@@ -436,44 +439,51 @@ p{
     font-family: letraBold;
 }
 #imgham{
-    position: relative;
-    left: 95.5vw;
-    top:1vw;
     width: 2vw;
     height: 2vw;
 }
 #imgham1{
-    position: relative;
-    left: 95.5vw;
-    top:-21.5vw;
+    
     width: 2vw;
     height: 2vw;
 }
 #imgham2{
-    position: relative;
-    left: 95.5vw;
-    top:-19vw;
+    
     width: 2vw;
     height: 2vw;
 }
-#imgham3{
+#imgham0{
+    
+    width: 2vw;
+    height: 2vw;
+}
+.menus{
     position: relative;
-    left: 95.5vw;
-    top:-16.8vw;
+    top: -26vw;
+    left: 96vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.4vw;
+}
+#imgham3{
     width: 2vw;
     height: 2vw;
 }
 #imgham4{
-    position: relative;
-    left: 95.5vw;
-    top:-14.5vw;
+    
     width: 2vw;
     height: 2vw;
 }
 #imgham5{
-    position: relative;
-    left: 95.5vw;
-    top:-12vw;
     width: 2vw;
     height: 2vw;
+}
+.textbarra{
+    position: relative;
+    font-size: 1.2vw;
+    top: -2vw;
+}
+.contenido{
+    margin-top: 4.5vw;
 }
