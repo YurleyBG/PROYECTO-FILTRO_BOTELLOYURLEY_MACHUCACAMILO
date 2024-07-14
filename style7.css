@@ -77,7 +77,6 @@
     height: 3vw;
 }
 #container1{
-    position: absolute;
     font-size: 1.5vw;
     position: relative;
     top: 2.2vw;
@@ -418,10 +417,11 @@
     border-radius: 5vw;
     color:white;
     position: relative;
-    top:-25vw;
+    top:-1vw;
     left: 40vw;
     text-align: center;
     justify-content: center;
+    font-size: 1,5vw;
 }
 p{
     position: relative;
@@ -458,13 +458,13 @@ p{
     height: 2vw;
 }
 .menus{
-    position: relative;
-    top: -26vw;
-    left: 96vw;
+    position: absolute;
+    top: 14.5vw;
+    left: 96.5vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 2.4vw;
+    gap: 2.7vw;
 }
 #imgham3{
     width: 2vw;
