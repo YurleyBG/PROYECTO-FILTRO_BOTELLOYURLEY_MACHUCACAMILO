@@ -61,7 +61,7 @@
     justify-content: center;
     position: relative;
     gap: 1vw;
-    top: -7vw;
+    top: 2vw;
 }
 #imagenDelete{
     width: 4.5vw;
@@ -76,29 +76,19 @@
 }
 #textoDeIngreso{
     font-family: letraRegular;
-    margin-top: -6vw;
     font-size: 1.2vw;
     color: #000000;
 }
 .Textoingreso2{
     position: relative;
-    top: -1vw;
-}
-.casillaUsuario{
-    margin-top: -1vw;
-    width: 36vw;
-    height: 2vw;
-    
-    border: solid 1px #Ec610B;
-    font-size: 1vw;
+    top: 1vw;
 }
 .requerimientos{
     margin-left: 11vw;
     display: flex;
     width: 30vw;
-    height: 10vw;
-    margin-top: -2vw;
-    
+    height: 20vw;
+    margin-top: 3vw;
 }
 #usuario{
     margin-top: 0.5vw;
@@ -116,16 +106,15 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 12vw;
+    width: 15vw;
     align-items: center;
-    height: 2.1vw;
+    height: 3vw;
     border-radius: 5vw;
     background-color: #ff6f2c;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: rgb(255, 255, 255);
     left: 22vw;
-    top: 9.5vw;
-    opacity: 100%;
+    
 }
 #menuseleccion{
     position: relative;
@@ -134,6 +123,30 @@
     width: 4vw;
 
 }
+.Inputs{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-family: letraBold;
+    font-size: 1.5vw;
+}
+#casilla1{
+    width: 36vw;
+    height: 2.5vw;
+    border: 1px solid #ff6f2c;
+    
+}
+#categoria{
+    width: 36.5vw;
+    height: 2.5vw;
+    border: 1px solid #ff6f2c;
+
+}
+#occiones {
+    font-size: 2vw;
+}
+
 
 @media screen and (max-width: 500px){
     .contenedor1{
