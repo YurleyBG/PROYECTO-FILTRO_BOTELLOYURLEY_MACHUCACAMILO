@@ -394,7 +394,7 @@
     width:2vw;
     height:2vw;
     border-radius: 50%;
-    border: 0.5vw solid rgb(255, 148, 8);
+    border: 0.5vw solid  #ff9f05;
     font-size: 1vw;
     text-align: center;
     justify-content: center;
@@ -419,11 +419,10 @@
 #boton1{
     width:20vw;
     height:3vw;
-    background-color:orangered;
+    background-color:#ff6f2c;
     border-radius: 5vw;
-
     position: relative;
-    top:-1vw;
+    top:0.8vw;
     left: 40vw;
     text-align: center;
     justify-content: center;
