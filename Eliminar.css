@@ -2,9 +2,19 @@
     font-family: letraRegular;
     src: url("Type font/Myriad\ Pro\ Regular.ttf");
 }
+
 @font-face {
-    font-family: letraLight;
-    src: url("Type font/MyriadPro-Light.otf");
+    font-family: letraBold;
+    src: url("Type font/MYRIADPRO-BOLD.OTF");
+}
+.contenedorimagen{
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+    width: 39.5vw;
+    height: 31vw;
+    border: solid 1px red;
+    overflow: hidden;
 }
 
 .contenedor{
@@ -20,12 +30,12 @@
     overflow: hidden;
     background-color: black;
     width: 100vw;
-    height: 63vw;
-    margin-top: 7vw;
+    height: 50vw;
+    
 }
 
 .contenedor1{
-    margin-top: 2vw;
+    margin-top: 3vw;
     position: absolute;
     width: 55vw;
     height: 35vw;
@@ -40,37 +50,57 @@
 }
 #imagenKario{
     position: absolute;
-    top: 8vw;
-    width: 40vw;
-    height: 40vw;
+    width: 46vw;
+    height: 48vw;
+    top: -9vw;
+    left: -2vw;
+}
+.Titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    gap: 1vw;
+    top: -7vw;
+}
+#imagenDelete{
+    width: 4.5vw;
+    height: 5.5vw;
+    position: relative;
+    top: 0.8vw;
 }
 #Titulo{
-    font-size: 2vw;
-    font-family:letraRegular;
+    font-size: 2.3vw;
+    font-family: letraBold;
+    color: #ff6f2c;
 }
 #textoDeIngreso{
-    font-family: letraLight;
-    margin-top: -1vw;
-    font-size: 0.8vw;
+    font-family: letraRegular;
+    margin-top: -6vw;
+    font-size: 1.2vw;
     color: #000000;
+}
+.Textoingreso2{
+    position: relative;
+    top: 1vw;
 }
 .casillaUsuario{
     margin-top: -1vw;
-    width: 30vw;
+    width: 36vw;
     height: 2vw;
-    border-radius: 0.8vw;
-    border: solid 1px #707070;
+    
+    border: solid 1px #Ec610B;
     font-size: 1vw;
 }
 .requerimientos{
-    margin-left: 7.5vw;
+    margin-left: 11vw;
     display: flex;
     width: 30vw;
     height: 10vw;
     
 }
 #usuario{
-    font-family: letraLight;
+    font-family: letraBold;
     color: #000000;
     font-size: 1vw;
     display: flex;
@@ -79,23 +109,21 @@
     text-decoration: none;
 }
 .boton{
-    font-family: letraLight;
+    position: relative;
+    font-family: letraBold;
     display: flex;
     text-align: center;
     justify-content: center;
     width: 12vw;
     align-items: center;
-    height: 2.5vw;
+    height: 2.1vw;
     border-radius: 5vw;
     background-color: #ff6f2c;
     font-size: 1vw;
     color: rgb(255, 255, 255);
-    margin-left: 17vw;
-}
-#textoFinal{
-    font-family: letraLight;
-    font-size: 0.7vw;
-    color: #000000;
+    left: 22vw;
+    top: 7vw;
+    opacity: 100%;
 }
 
 
