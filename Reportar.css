@@ -1,0 +1,201 @@
+@font-face {
+    font-family: letraRegular;
+    src: url("Type font/Myriad\ Pro\ Regular.ttf");
+}
+
+@font-face {
+    font-family: letraBold;
+    src: url("Type font/MYRIADPRO-BOLD.OTF");
+}
+.contenedorimagen{
+    position: absolute;
+    top: 10vw;
+    left: 30vw;
+    width: 39.5vw;
+    height: 31vw;
+    
+    overflow: hidden;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin:-1vw;
+}
+#imagenFondo{
+    overflow: hidden;
+    background-color: black;
+    width: 100vw;
+    height: 50vw;
+    
+}
+
+.contenedor1{
+    margin-top: 3vw;
+    position: absolute;
+    width: 55vw;
+    height: 39vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3vw;
+    flex-direction: column;
+    opacity: 70%;
+}
+#imagenKario{
+    position: relative;
+    width: 46vw;
+    height: 48vw;
+    top: -9vw;
+    left: -2vw;
+}
+.Titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    gap: 1vw;
+    top: -7vw;
+}
+#imagenDelete{
+    width: 4.5vw;
+    height: 5.5vw;
+    position: relative;
+    top: 0.8vw;
+}
+#Titulo{
+    font-size: 2.3vw;
+    font-family: letraBold;
+    color: #ff6f2c;
+}
+#textoDeIngreso{
+    font-family: letraRegular;
+    margin-top: -6vw;
+    font-size: 1.2vw;
+    color: #000000;
+}
+.Textoingreso2{
+    position: relative;
+    top: -1vw;
+}
+.casillaUsuario{
+    margin-top: -1vw;
+    width: 36vw;
+    height: 2vw;
+    
+    border: solid 1px #Ec610B;
+    font-size: 1vw;
+}
+.requerimientos{
+    margin-left: 11vw;
+    display: flex;
+    width: 30vw;
+    height: 10vw;
+    margin-top: -2vw;
+    
+}
+#usuario{
+    margin-top: 0.5vw;
+    font-family: letraBold;
+    color: #000000;
+    font-size: 1vw;
+    display: flex;
+}
+#botonn{
+    text-decoration: none;
+}
+.boton{
+    position: relative;
+    font-family: letraBold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 12vw;
+    align-items: center;
+    height: 2.1vw;
+    border-radius: 5vw;
+    background-color: #ff6f2c;
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    left: 22vw;
+    top: 9.5vw;
+    opacity: 100%;
+}
+#menuseleccion{
+    position: relative;
+    left: 15vw;
+    top: -1.8vw;
+    width: 4vw;
+
+}
+
+@media screen and (max-width: 500px){
+    .contenedor1{
+        width: 49vw;
+        height: 54vw;
+        
+    }
+    #imagenKario{
+        position: relative;
+        top: -8vw;
+        width: 7vw;
+        height: 7vw;
+    }
+    #Titulo{
+        position: relative;
+        top: -8vw;
+        font-size: 2.5vw;
+        font-family:letraRegular;
+    }
+    #textoDeIngreso{
+        font-family: letraLight;
+        margin-top: -9vw;
+        font-size: 1.5vw;
+        color: #000000;
+    }
+    .casillaUsuario{
+        margin-top: -1vw;
+        width: 35vw;
+        height: 5vw;
+        margin-left: -1vw;
+    }
+    #usuario{
+        font-family: letraLight;
+        color: #000000;
+        font-size: 1.8vw;
+        display: flex;
+        margin-top: -0.1vw;
+    }
+    .boton{
+        position: relative;
+        top: 8vw;
+        width: 20vw;
+        left: -1.4vw;
+        align-items: center;
+        height: 5vw;
+        font-size: 2vw;
+    }
+    .contenedor{
+        width: 100vw;
+        height: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin:-1vw;
+    }
+    #imagenFondo{
+        overflow: hidden;
+        background-color: black;
+        width: 100vw;
+        height: 110vw;
+        margin-top: 7vw;
+    }
+    
+}
