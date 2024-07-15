@@ -56,108 +56,38 @@
     display: flex;
     justify-content: center;
    align-items: center;
- 
 
 }
-#contenido{
-    position: absolute;
-    top: -2vw;
+#cajatitulo{
+    position: relative;
+    top: -15vw;
+    width: 60vw;
+    height:5vw;
     display: flex;
     justify-content: center;
    align-items: center;
    flex-direction: column;
-  
 }
-#imgfoto{
-    border: 2px solid #8b8686;
-    width: 10vw;
-    height: 10vw; 
-    border-radius: 8vw;
-}
-#fotop{
+#imgañadir{
     position: relative;
-    left: 0.2vw;
-    width: 12vw;
-    height: 12vw;
-    
-}
-#texto{
-    font-size: 2vw;
-    font-family: letraRegular
-}
-#text1{
-    font-size: 2vw;
-    font-family: letraRegular
-}
-#text2{
-    top: 3vw;
-    font-size: 1.2vw;
-    font-family: letralight;
-}
-#boton{
-    position: relative;
-    top: 7vw;
-    width: 15vw;
-    height: 3vw;
-    background-color: #EC610B;
-    border-radius: 1vw;
-    border-style: none;
-}
-#text4{
-    color: #fff;
-    font-size: 1.2vw;
-    font-family: letraBold;
-}
-#perfil{
-    position: relative;
-    top: 4.2vw;
-    left: -20vw;
-    color: #EC610B;
-    font-size: 1.5vw;
-    font-family: letraBold;
-}
-#container{
-    width: 10vw;
-    height: 12.6vw;
-    background-color: #EC610B;
-    position: relative;
-    top: -7.5vw;
-    left: -24vw;
-    border-radius: 2vw;
-    border-style:dashed;
-    border-color: #fff;
- 
-}
-.opciones{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    width: 10vw;
+    top: 0.5vw;
+    left: -3vw;
+    width: 2vw;
     height: 2vw;
-    border:#fdfafa 1px solid;
-    border-style:dashed;
-    font-size: 1vw;
-    color: white;
 }
-#imgmenu1{
+#cont2{
+    font-family: letraBold;
     position: relative;
-    top: 5.9vw;
-    left: -24.5vw;
-    width: 1.3vw;
-    height: 1.3vw;
+    top: -2vw;
+    left: 2vw;
+    color: #EC610B;
+    font-size: 2vw;
+
 }
-input{
-    display: none;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-}
-#menu:checked~#container{
-    display: none;
-}
-#menu:checked ~  #imgmenu1{
-   
-    display: none;
-   
+#cont3{
+    position: relative;
+    top: -1.5vw;
+    left: 1vw;
+    font-family: letralight;
+    font-size: 1vw;
 }
