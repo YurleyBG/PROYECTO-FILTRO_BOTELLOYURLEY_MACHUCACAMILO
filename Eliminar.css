@@ -63,24 +63,24 @@
     top: -3vw;
 }
 #imagenDelete{
-    width: 4.5vw;
-    height: 5.5vw;
+    width: 4vw;
+    height: 5vw;
     position: relative;
     top: 0.8vw;
 }
 #Titulo{
-    font-size: 2.7vw;
+    font-size: 2.5vw;
     font-family: letraBold;
     color: #ff6f2c;
 }
 #textoDeIngreso{
     font-family: letraRegular;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     color: #000000;
 }
 .Textoingreso2{
     position: relative;
-    top: -3vw;
+    top: -5vw;
 }
 
 .requerimientos{
@@ -112,8 +112,8 @@
     background-color: #ff6f2c;
     font-size: 1.8vw;
     color: rgb(255, 255, 255);
-    left: 22vw;
-    top: 1vw;
+    left: 21vw;
+    top: -0.5vw;
 }
 #menuseleccion{
     position: relative;
@@ -137,16 +137,73 @@
     border: 1px solid #ff6f2c;
     
 }
+label{
+    font-size: 1.3vw;
+}
 #categoria{
-    width: 36.5vw;
+    width: 36.3vw;
     height: 2.5vw;
     border: 1px solid #ff6f2c;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 
 }
-#occiones {
-    font-size: 2vw;
+#container{
+    border-radius: 4vw;
+    width: 56vw;
+    height: 36vw;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#menu{
+    margin-top: 3vw;
+    margin-left: 44vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+#flecha{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#caja{
+    display: none;
+    top: 5vw;
+    left: 49vw;
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    background-color: #EC610B;
+    z-index: 2;
+    border-radius: 2vw;
+    border-style:dashed;
+    border-color: #fff;
+}
+.opciones{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 10vw;
+    height: 2vw;
+    border:#fdfafa 1px solid;
+    border-style:dashed;
+    font-size: 1.2vw;
+    color: white;
+}
+#abrir{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#abrir:checked~#caja{
+    display: block;
+}
+ 
+
 
 
 @media screen and (max-width: 500px){
@@ -181,30 +238,34 @@
     }
     #imagenKario{
         position: absolute;
-        width: 60vw;
+        width: 57vw;
         height: 50vw;
-        top: 10vw;
-        left: -2vw;
+        top: 20vw;
+        left: 4vw;
     }
     .contenedorimagen{
         position: absolute;
-        top: 10vw;
-        left: 22vw;
-        width: 90vw;
-        height: 80vw;
+        top:5vw;
+        left: 20vw;
+        width: 68vw;
+        height: 66vw;
         overflow: hidden;
     }
     #imagenDelete{
         width: 10vw;
         height: 10vw;
         position: relative;
-        top: 3vw;
+        top: -2vw;
+        left: 6vw;
     }
     .Titulo{
-        top: -2vw;
+        position: relative;
+        top: -20vw;
+       
     }
     #Titulo{
         font-size: 5vw;
+        left: 20vw;
         
     }
     #textoDeIngreso{
