@@ -2,34 +2,37 @@
     font-family: letraRegular;
     src: url("Type font/Myriad\ Pro\ Regular.ttf");
 }
+
 @font-face {
     font-family: letraLight;
     src: url("Type font/MyriadPro-Light.otf");
 }
 
-.contenedor{
+.contenedor {
     width: 100vw;
     height: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    margin:-1vw;
+    margin: -1vw;
 }
-#imagenFondo{
+
+#imagenFondo {
     overflow: hidden;
     background-color: black;
     margin-top: 7vw;
     width: 100vw;
     height: 64vw;
-    
+
 }
-.contenido{
+
+.contenido {
     height: 28vw;
 }
 
-.contenedor1{
-    
+.contenedor1 {
+
     position: absolute;
     width: 47vw;
     height: 27vw;
@@ -41,27 +44,114 @@
     margin-bottom: 3vw;
     flex-direction: column;
 }
-#imagenKario{
+
+#imagenKario {
     margin-top: 1.5vw;
     width: 5vw;
     height: 5vw;
 }
-#Titulo{
+
+#Titulo {
     font-size: 1.5vw;
     font-family: letraRegular;
 }
-#textoDeIngreso{
+
+#textoDeIngreso {
     margin-top: -1vw;
     font-size: 0.8vw;
     color: #000000;
     font-family: letraLight;
 }
-#imagenPerfil{
+
+#imagenPerfil {
     width: 9vw;
     height: 9vw;
 }
-#Textonombre{
+
+#Textonombre {
     font-size: 1.5vw;
     font-family: letraRegular;
+
+}
+
+@media screen and (max-width: 400px) {
+    .contenedor {
+        position: relative;
+        top: 50vw;
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #imagenFondo {
+        background-color: black;
+        width: 100vw;
+        height: 100%;
+        top: 60vw;
+
+    }
+
+    .contenedor1 {
+        width: 70vw;
+        height: 70vw;
+
+    }
+
+    body {
+        background-color: #000000;
+    }
+
+    #imagenKario {
+        position: relative;
+        top: -15vw;
+        width: 13vw;
+        height: 13vw;
+    }
+
+    #Titulo {
+        position: relative;
+        top: -15vw;
+        font-size: 5vw;
+        font-family: letraRegular;
+    }
+
+    .boton {
+        position: relative;
+        top: 12vw;
+        width: 30vw;
+        left: 3vw;
+        align-items: center;
+        height: 7vw;
+        font-size: 4vw;
+    }
+
+    #textoFinal {
+        position: relative;
+        font-size: 2.5vw;
+        top: 13vw;
+
+    }
+
+    #imagenPerfil {
+        width: 19vw;
+        height: 19vw;
+        position: relative;
+        top: -17vw;
+    }
+    #Textonombre {
+        position: relative;
+        font-size: 3.5vw;
+        top: -18vw;
+        
     
+    }
+    #textoDeIngreso {
+        margin-top: -18vw;
+        font-size: 2.5vw;
+       
+    }
+
+
 }

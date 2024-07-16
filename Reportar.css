@@ -135,17 +135,15 @@
     width: 36vw;
     height: 2.5vw;
     border: 1px solid #ff6f2c;
-    
+    font-size: 1.5vw;
 }
 #categoria{
     width: 36.5vw;
     height: 2.5vw;
     border: 1px solid #ff6f2c;
+    font-size: 1.5vw;
+}
 
-}
-#occiones {
-    font-size: 2vw;
-}
 
 
 @media screen and (max-width: 500px){
