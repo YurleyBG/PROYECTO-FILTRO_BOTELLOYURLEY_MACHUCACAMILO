@@ -14,3 +14,24 @@
     margin-top: -5vw;
   
 }
+@media screen and (max-width: 400px){
+    #principal{
+        background-color: black;
+        width: 100vw;
+        height: 200vw;
+        margin:-2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #fondo2{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+    }
+    
+    
+}
