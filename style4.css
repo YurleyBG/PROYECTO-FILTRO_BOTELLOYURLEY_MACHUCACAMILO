@@ -100,9 +100,12 @@
 
 @media screen and (max-width: 500px){
     .contenedor1{
-        width: 49vw;
+        width: 50vw;
         height: 54vw;
         
+    }
+    body{
+        background-color: black;
     }
     #imagenKario{
         position: relative;
