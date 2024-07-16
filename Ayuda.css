@@ -1,0 +1,168 @@
+@font-face {
+    font-family: letraBold;
+    src: url("Type font/MYRIADPRO-BOLD.OTF");
+}
+@font-face {
+    font-family: letralight;
+    src: url("Type font/MyriadPro-Light.otf");
+}
+
+@font-face {
+    font-family: letraRegular;
+    src: url("Type font/Myriad\ Pro\ Regular.ttf");
+}
+#principal{
+    background-color: black;
+    width: 100vw;
+    height:52vw;
+    overflow: hidden;
+    margin:-1vw;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+#fondo2{
+    background-size: 100vw;
+    background-image: url("pinctures/pexels-pixabay-159400@2x.png");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:70vw;
+    margin-top: 8vw;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+#cajalogo{
+    position: relative;
+    top: -4vw;
+    width: 45vw;
+    height: 31vw;
+    overflow: hidden;
+}
+#logo{
+    position: relative;
+    top: -8vw;
+    width: 48vw;
+    height: 44.5vw;
+}
+#cajablanca{
+    position: absolute;
+    top: 5vw;
+    width: 60vw;
+    height: 40vw;
+    background-color: #fff;
+    opacity: 80%;
+    border-radius: 4vw;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+
+}
+#container{
+    border-radius: 4vw;
+    width: 56vw;
+    height: 36vw;
+}
+#menu{
+    margin-top:1vw;
+    margin-left: 52vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+#flecha{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#caja{
+    display: none;
+    top: 5vw;
+    left: 49vw;
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    background-color: #EC610B;
+    z-index: 2;
+    border-radius: 2vw;
+    border-style:dashed;
+    border-color: #fff;
+}
+.opciones{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 10vw;
+    height: 2vw;
+    border:#fdfafa 1px solid;
+    border-style:dashed;
+    font-size: 1.2vw;
+    color: white;
+}
+#abrir{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#abrir:checked~#caja{
+    display: block;
+}
+#cajatitulo{
+    width: 56vw;
+    height:5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cajaopciones{
+    margin-top:1vw ;
+    width: 56vw;
+    height:20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+#opcio{
+    width: 28vw;
+    height: 1.5vw;
+    background-color:#EC610B;
+    border: 2px solid #f3f2f1;
+    margin-top: 1vw;
+    border-radius: 2vw;
+    color: #f8f6f4;
+    opacity: 20vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1vw;
+    z-index: 2;
+    font-family: letraRegular;
+    padding:0.5vw ;
+    
+}
+#imgayuda{
+    width: 2vw;
+    height: 2vw;
+    position: relative;
+    left: -4vw;
+    top:1vw;
+}
+#text1{
+    color: #EC610B;
+    font-size: 2vw;
+    position: relative;
+    top: -1.3vw;
+    font-family: letraBold;
+}
+#text2{
+    font-size: 1vw;
+    position: relative;
+    top:-1vw ;
+    font-family: letraRegular;
+
+}
