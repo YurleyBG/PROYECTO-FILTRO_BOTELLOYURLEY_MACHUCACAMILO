@@ -119,9 +119,10 @@ a{
 }
 
 #cajaopciones{
-    margin-top:1vw ;
+    border: #EC610B 1px solid;
+    margin-top:-2vw ;
     width: 56vw;
-    height:20vw;
+    height:30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +134,7 @@ a{
     height: 1.5vw;
     background-color:#EC610B;
     border: 2px solid #f3f2f1;
-    margin-top: 1vw;
+    margin-top: -0.5vw;
     border-radius: 2vw;
     color: #f8f6f4;
     opacity: 20vw;
@@ -164,5 +165,60 @@ a{
     position: relative;
     top:-1vw ;
     font-family: letraRegular;
+
+}
+#flechaacor{
+    width: 1vw;
+    height: 1vw;
+    transform: rotateZ(-90deg);
+    position: relative;
+    top: 1.5vw;
+    left: 26vw;
+}
+input{
+    display: none;
+}
+#contetext1{
+    display: none;
+    width: 28vw;
+    height: 10vw;
+    background-color: #EC610B;
+}
+#acordeon:checked~#contetext1{
+   
+    display: block;
+
+}
+#contetext2{
+    display: none;
+    width: 28vw;
+    height: 10vw;
+    background-color: #EC610B;
+}
+#acordeon1:checked~#contetext2{
+   
+    display: block;
+
+}
+#contetext3{
+    display: none;
+    width: 28vw;
+    height: 10vw;
+    background-color: #EC610B;
+}
+#acordeon2:checked~#contetext3{
+   
+    display: block;
+
+}
+#contetext4{
+    display: none;
+    width: 28vw;
+    height: 10vw;
+    background-color: #EC610B;
+}
+#acordeon3:checked~#contetext4{
+   
+    display: block;
 
 }
