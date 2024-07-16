@@ -7,6 +7,9 @@
     font-family: letraBold;
     src: url("Type font/MYRIADPRO-BOLD.OTF");
 }
+body{
+    background-color: #000000;
+}
 .contenedorimagen{
     position: absolute;
     top: 10vw;
@@ -15,7 +18,6 @@
     height: 31vw;
     overflow: hidden;
 }
-
 .contenedor{
     width: 100vw;
     height: 50vw;
@@ -30,9 +32,18 @@
     background-color: black;
     width: 100vw;
     height: 50vw;
-    
 }
-
+.contenido{
+    width: 50vw;
+    height:30vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 2.5vw;
+    left: 2.5vw;
+}
 .contenedor1{
     margin-top: 3vw;
     position: absolute;
@@ -40,11 +51,7 @@
     height: 35vw;
     background-color: rgb(255, 255, 255);
     border-radius: 4vw;
-    display: flex;
-    justify-content: center;
-    text-align: center;
     margin-bottom: 3vw;
-    flex-direction: column;
     opacity: 80%;
 }
 #imagenKario{
@@ -55,46 +62,42 @@
     left: -2vw;
 }
 .Titulo{
+    flex-direction: column;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     position: relative;
-    gap: 1vw;
-    top: -3vw;
+    top: -3.5vw;
+    width: 50vw;
+    height: 9vw;
 }
 #imagenDelete{
-    width: 4vw;
-    height: 5vw;
+    width: 3.5vw;
+    height: 3.5vw;
     position: relative;
-    top: 0.8vw;
+    top: 5vw;
+    left: -6vw;
 }
-#Titulo{
+#eliminar{
+    position: relative;
+    top: -0.1vw;
+    left: 2vw;
     font-size: 2.5vw;
     font-family: letraBold;
     color: #ff6f2c;
 }
 #textoDeIngreso{
+    position: relative;
+    top: -3vw;
     font-family: letraRegular;
     font-size: 1.2vw;
     color: #000000;
 }
-.Textoingreso2{
-    position: relative;
-    top: -5vw;
-}
-
 .requerimientos{
-    margin-left: 11vw;
-    display: flex;
-    width: 30vw;
+    margin-left: 5vw;
+    width: 40vw;
     height: 15vw;
-    margin-top: -4vw;
-}
-#usuario{
-    font-family: letraBold;
-    color: #000000;
-    font-size: 1vw;
-    display: flex;
+    margin-top:-2vw;
 }
 #botonn{
     text-decoration: none;
@@ -106,71 +109,73 @@
     text-align: center;
     justify-content: center;
     width: 15vw;
-    align-items: center;
     height: 3vw;
     border-radius: 5vw;
     background-color: #ff6f2c;
     font-size: 1.8vw;
-    color: rgb(255, 255, 255);
-    left: 21vw;
-    top: -0.5vw;
+    color: #fff;
+    left: 18vw;
+    top: 1vw;
 }
 #menuseleccion{
     position: relative;
     left: 15vw;
     top: -1.8vw;
     width: 4vw;
-
 }
 .Inputs{
-    text-align: start;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    width: 80%;
     font-family: letraBold;
     font-size: 1.5vw;
-    
 }
 #casilla1{
-    width: 36vw;
+    width: 39.5vw;
     height: 2.5vw;
     border: 1px solid #ff6f2c;
-    
 }
 label{
+    position: relative;
+    left: -17vw;
+    font-size: 1.3vw;
+}
+#area{
+    position: relative;
+    left: -18.5vw;
     font-size: 1.3vw;
 }
 #categoria{
-    width: 36.3vw;
-    height: 2.5vw;
+    width: 40vw;
+    height: 2.8vw;
     border: 1px solid #ff6f2c;
     font-size: 1.2vw;
-
 }
 #container{
-    border-radius: 4vw;
-    width: 56vw;
-    height: 36vw;
+    position: relative;
+    top: 2.5vw;
+    left: 2.5vw;
+    width: 50vw;
+    height: 2vw;
 }
 a{
     text-decoration: none;
     color: #fff;
 }
 #menu{
-    margin-top: 3vw;
-    margin-left: 44vw;
+    position: relative;
     width: 1.5vw;
+    top: 0.5vw;
+    left: 62vw;
     height: 1.5vw;
 }
 #flecha{
     width: 1.5vw;
     height: 1.5vw;
 }
-
 #caja{
     display: none;
-    top: 5vw;
-    left: 49vw;
+    top: 2.5vw;
+    left: 39vw;
     position: absolute;
     width: 10vw;
     height: 10.6vw;
@@ -202,7 +207,7 @@ a{
 #abrir:checked~#caja{
     display: block;
 }
- 
+
 
 
 
@@ -234,7 +239,7 @@ a{
     }
     .contenedor1{
         width: 80vw;
-        height: 80vw;
+        height: 60vw;
     }
     #imagenKario{
         position: absolute;
@@ -251,63 +256,178 @@ a{
         height: 66vw;
         overflow: hidden;
     }
-    #imagenDelete{
-        width: 10vw;
-        height: 10vw;
+    #container{
         position: relative;
-        top: -2vw;
-        left: 6vw;
+        top: 2.5vw;
+        left: 2.5vw;
+        width: 75vw;
+        height: 4vw;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    #menu{
+        position: relative;
+        width: 3vw;
+        top: -1vw;
+        left: 88vw;
+        height: 3vw;
+    }
+    #flecha{
+        position: relative;
+        left: 2vw;
+        width: 3vw;
+        height: 3vw;
+    }
+    #caja{
+        display: none;
+        top: 6vw;
+        left: 54vw;
+        position: absolute;
+        width: 18vw;
+        height: 24.6vw;
+        background-color: #EC610B;
+        z-index: 2;
+        border-radius: 2vw;
+        border-style:dashed ;
+        border-color: #fff;
+    }
+    .opciones{
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 18vw;
+        height: 4.5vw;
+        border:#fdfafa 1px solid;
+        border-style:dashed;
+        font-size: 2.2vw;
+        color: white;
+    }
+    #abrir{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    #abrir:checked~#caja{
+        display: block;
     }
     .Titulo{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
-        top: -20vw;
-       
+        top: 12.8vw;
+        width: 75vw;
+        height: 18vw;
     }
-    #Titulo{
+    #imagenDelete{
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        top: 8vw;
+        left: -7.5vw;
+    }
+    #eliminar{
+        position: relative;
+        top: -4vw;
+        left: 6.5vw;
         font-size: 5vw;
-        left: 20vw;
-        
+        font-family: letraBold;
+        color: #ff6f2c;
     }
     #textoDeIngreso{
-        
-        font-size: 2.3vw;
-        
-    }
-    .Textoingreso2{
         position: relative;
-        top: -5vw;
-    }
-    #casilla1{
-        width: 55vw;
-        height: 5vw;
-        border: 1px solid #ff6f2c;
-        
-    }
-    #categoria{
-        width: 56vw;
-        height: 6vw;
-        border: 1px solid #ff6f2c;
-    
+        top: -8vw;
+        font-family: letraRegular;
+        font-size: 2.3vw;
+        color: #000000;
     }
     .requerimientos{
-        margin-left: 11vw;
-        display: flex;
-        width: 35vw;
-        height: 29vw;
-        margin-top: -4vw;
+        margin-left: 0.2vw;
+        width: 75vw;
+        height: 75vw;
+        margin-top:8.7vw;
     }
-    .Inputs{
-        
-        font-family: letraBold;
-        font-size: 3vw;
-        
+    #botonn{
+        text-decoration: none;
     }
     .boton{
-        
-        width: 27vw;
-        height: 7vw;
-        font-size: 3vw;
-        left: 26vw;
+        position: relative;
+        font-family: letraBold;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 15vw;
+        height: 3vw;
+        border-radius: 5vw;
+        background-color: #ff6f2c;
+        font-size: 1.8vw;
+        color: #fff;
+        left: 18vw;
+        top: 1vw;
+    }
+    #menuseleccion{
+        position: relative;
+        left: 15vw;
+        top: -1.8vw;
+        width: 4vw;
+    }
+    .Inputs{
+        display:flex;
+        flex-direction: column;
+        font-family: letraBold;
+        font-size: 1.5vw;
+    }
+    #casilla1{
+        position: relative;
+        top: 2vw;
+        left:8vw;
+        width: 60.5vw;
+        height: 4.5vw;
+        border: 1px solid #ff6f2c;
+    }
+    label{
+        position: relative;
+        left: -24vw;
+        top:2vw;
+        font-size: 2.5vw;
+    }
+    #area{
+        position: relative;
+        left: -26.4vw;
+        font-size: 2.8vw;
+    }
+    #categoria{
+        position: relative;
+        top: 2vw;
+        left:8vw;
+        width: 61.5vw;
+        height: 4.8vw;
+        border: 1px solid #ff6f2c;
+        font-size: 2vw;
+    }
+    #botonn{
+        text-decoration: none;
+    }
+    .boton{
+        position: relative;
+        font-family: letraBold;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 20vw;
+        height: 5vw;
+        border-radius: 5vw;
+        background-color: #ff6f2c;
+        font-size:2.8vw;
+        color: #fff;
+        left: 28vw;
         top: 4vw;
     }
+    
 }
