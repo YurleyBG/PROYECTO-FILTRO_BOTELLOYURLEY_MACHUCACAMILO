@@ -110,13 +110,14 @@
 }
 #perfil{
     position: relative;
-    top: 4.2vw;
-    left: -20vw;
+    top: 3.8vw;
+    left: -21vw;
     color: #EC610B;
     font-size: 1.5vw;
     font-family: letraBold;
 }
 #container{
+    display: none;
     width: 10vw;
     height: 12.6vw;
     background-color: #EC610B;
@@ -136,7 +137,7 @@
     height: 2vw;
     border:#fdfafa 1px solid;
     border-style:dashed;
-    font-size: 1vw;
+    font-size: 1.2vw;
     color: white;
 }
 #imgmenu1{
@@ -154,7 +155,7 @@ a{
     color: #fff;
 }
 #menu:checked~#container{
-    display: none;
+    display: block;
 }
 #menu:checked ~  #imgmenu1{
    

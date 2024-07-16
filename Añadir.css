@@ -58,15 +58,21 @@
    align-items: center;
 
 }
+#container{
+    border-radius: 4vw;
+    width: 56vw;
+    height: 36vw;
+}
 #cajatitulo{
     position: relative;
-    top: -15vw;
-    width: 60vw;
+    top: -1vw;
+    width: 56vw;
     height:5vw;
     display: flex;
     justify-content: center;
    align-items: center;
    flex-direction: column;
+  
 }
 #imgañadir{
     position: relative;
@@ -89,5 +95,119 @@
     top: -1.5vw;
     left: 1vw;
     font-family: letralight;
+    font-size: 1.5vw;
+}
+#cajainput1{
+    position:relative;
+    left: 3vw;
+    top: 2vw;
+    display: flex;
+    flex-direction: column;
+    width:22vw;
+    height: 20vw;
+   
+    
+}
+#cajainput2{
+    position:relative;
+    left: 31vw;
+    top: -18vw;
+    display: flex;
+    flex-direction: column;
+    width:22vw;
+    height: 20vw;
+   
+    
+}
+.ingresar{
+    border-style: none;
+    border: 2px solid ;
+    width: 22.5vw;
+    height: 1.7vw;
+    border-color: #EC610B;
+    margin-top: 0.5vw;
     font-size: 1vw;
+    
+    
+}
+.ingresar1{
+    width: 23vw;
+    height: 2vw;
+    border: 2px solid ;
+    border-color: #EC610B;
+    margin-top: 0.5vw;
+ 
+    
+}
+.text{
+    font-family: letraBold;
+    font-size: 1.2vw;
+    
+}
+#botonañadir{
+    background-color: #EC610B;
+    width: 14vw;
+    height: 3vw;
+    position: relative;
+    top: -15vw;
+    left: 21.5vw;
+    border-radius: 1vw;
+    
+    
+}
+#textañadir{
+    margin-left: 3.8vw;
+    font-size: 2vw;
+    color:white;
+    font-family: letraBold;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#menu{
+    margin-top: 1vw;
+    margin-left: 52vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+#flecha{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#caja{
+    display: none;
+    top: 5vw;
+    left: 49vw;
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    background-color: #EC610B;
+    z-index: 2;
+    border-radius: 2vw;
+    border-style:dashed;
+    border-color: #fff;
+}
+.opciones{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 10vw;
+    height: 2vw;
+    border:#fdfafa 1px solid;
+    border-style:dashed;
+    font-size: 1.2vw;
+    color: white;
+}
+#abrir{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#abrir:checked~#caja{
+    display: block;
 }
