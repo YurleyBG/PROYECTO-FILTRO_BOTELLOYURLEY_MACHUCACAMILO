@@ -40,7 +40,7 @@
     overflow: hidden;
 }
 #logo{
-    position: relative;
+    position: absolute;
     top: -8vw;
     width: 48vw;
     height: 44.5vw;
@@ -119,7 +119,6 @@ a{
 }
 
 #cajaopciones{
-    border: #EC610B 1px solid;
     margin-top:-2vw ;
     width: 56vw;
     height:30vw;
@@ -174,8 +173,18 @@ a{
     position: relative;
     top: 1.5vw;
     left: 26vw;
+    
 }
-input{
+#acordeon{
+    display: none;
+}
+#acordeon1{
+    display: none;
+}
+#acordeon2{
+    display: none;
+}
+#acordeon3{
     display: none;
 }
 #contetext1{
@@ -183,6 +192,8 @@ input{
     width: 28vw;
     height: 10vw;
     background-color: #EC610B;
+    border-style: dotted;
+    border-color: #f3f2f1;
 }
 #acordeon:checked~#contetext1{
    
@@ -194,6 +205,8 @@ input{
     width: 28vw;
     height: 10vw;
     background-color: #EC610B;
+    border-style: dotted;
+    border-color: #f3f2f1;
 }
 #acordeon1:checked~#contetext2{
    
@@ -205,6 +218,8 @@ input{
     width: 28vw;
     height: 10vw;
     background-color: #EC610B;
+    border-style: dotted;
+    border-color: #f3f2f1;
 }
 #acordeon2:checked~#contetext3{
    
@@ -216,9 +231,51 @@ input{
     width: 28vw;
     height: 10vw;
     background-color: #EC610B;
+     border-style: dotted;
+    border-color: #f3f2f1;
 }
 #acordeon3:checked~#contetext4{
    
     display: block;
 
+}
+#acordeon3:checked~input{
+    display: block;
+}
+#textmens{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5vw;
+    color: #fff;
+    font-family: letraBold;
+}
+#escribir{
+    position: relative;
+    left: 3vw;
+    width: 22vw;
+    height: 5vw;
+
+}
+input{
+    width: 22vw;
+    height: 5vw;
+}
+button{
+    
+    position: absolute;
+    font-size:1.5vw ;
+    top: 24.5vw;
+    left: 26vw;
+    width: 5vw;
+    height: 1.5vw;
+    background-color: #eeecea;
+   
+}
+p{
+    font-size: 1vw;
+    color: #000;
+    position: relative;
+    top: -0.9vw;
 }
