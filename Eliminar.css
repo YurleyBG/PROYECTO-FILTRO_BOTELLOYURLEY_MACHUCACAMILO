@@ -13,7 +13,6 @@
     left: 30vw;
     width: 39.5vw;
     height: 31vw;
-    border: solid 1px red;
     overflow: hidden;
 }
 
@@ -46,7 +45,7 @@
     text-align: center;
     margin-bottom: 3vw;
     flex-direction: column;
-    opacity: 70%;
+    opacity: 80%;
 }
 #imagenKario{
     position: absolute;
@@ -61,7 +60,7 @@
     justify-content: center;
     position: relative;
     gap: 1vw;
-    top: -7vw;
+    top: -3vw;
 }
 #imagenDelete{
     width: 4.5vw;
@@ -70,34 +69,26 @@
     top: 0.8vw;
 }
 #Titulo{
-    font-size: 2.3vw;
+    font-size: 2.7vw;
     font-family: letraBold;
     color: #ff6f2c;
 }
 #textoDeIngreso{
     font-family: letraRegular;
-    margin-top: -6vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     color: #000000;
 }
 .Textoingreso2{
     position: relative;
-    top: 1vw;
+    top: -3vw;
 }
-.casillaUsuario{
-    margin-top: -1vw;
-    width: 36vw;
-    height: 2vw;
-    
-    border: solid 1px #Ec610B;
-    font-size: 1vw;
-}
+
 .requerimientos{
     margin-left: 11vw;
     display: flex;
     width: 30vw;
-    height: 10vw;
-    
+    height: 15vw;
+    margin-top: -4vw;
 }
 #usuario{
     font-family: letraBold;
@@ -114,86 +105,147 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 12vw;
+    width: 15vw;
     align-items: center;
-    height: 2.1vw;
+    height: 3vw;
     border-radius: 5vw;
     background-color: #ff6f2c;
-    font-size: 1vw;
+    font-size: 1.8vw;
     color: rgb(255, 255, 255);
     left: 22vw;
-    top: 7vw;
-    opacity: 100%;
+    top: 1vw;
+}
+#menuseleccion{
+    position: relative;
+    left: 15vw;
+    top: -1.8vw;
+    width: 4vw;
+
+}
+.Inputs{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-family: letraBold;
+    font-size: 1.5vw;
+    
+}
+#casilla1{
+    width: 36vw;
+    height: 2.5vw;
+    border: 1px solid #ff6f2c;
+    
+}
+#categoria{
+    width: 36.5vw;
+    height: 2.5vw;
+    border: 1px solid #ff6f2c;
+
+}
+#occiones {
+    font-size: 2vw;
 }
 
 
 @media screen and (max-width: 500px){
-    .contenedor1{
-        width: 49vw;
-        height: 54vw;
-        
+    .contenedorimagen{
+        position: absolute;
+        top: 10vw;
+        left: 30vw;
+        width: 39.5vw;
+        height: 100vw;
     }
-    #imagenKario{
-        position: relative;
-        top: -8vw;
-        width: 7vw;
-        height: 7vw;
+    body{
+        background-color: #000000;
     }
-    #Titulo{
-        position: relative;
-        top: -8vw;
-        font-size: 2.5vw;
-        font-family:letraRegular;
-    }
-    #textoDeIngreso{
-        font-family: letraLight;
-        margin-top: -9vw;
-        font-size: 1.5vw;
-        color: #000000;
-    }
-    .casillaUsuario{
-        margin-top: -1vw;
-        width: 35vw;
-        height: 5vw;
-        margin-left: -1vw;
-    }
-    #usuario{
-        font-family: letraLight;
-        color: #000000;
-        font-size: 1.8vw;
-        display: flex;
-        margin-top: -0.1vw;
-    }
-    .boton{
-        position: relative;
-        top: 8vw;
-        width: 20vw;
-        left: -1.4vw;
-        align-items: center;
-        height: 5vw;
-        font-size: 2vw;
-    }
-    #textoFinal{
-        position: relative;
-        font-size: 1.5vw;
-        top: 7.5vw;
-        
-    }
+    
     .contenedor{
         width: 100vw;
-        height: 80vw;
+        height: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
         margin:-1vw;
     }
     #imagenFondo{
-        overflow: hidden;
         background-color: black;
         width: 100vw;
-        height: 110vw;
-        margin-top: 7vw;
+        height: 90vw;
+        
     }
+    .contenedor1{
+        width: 80vw;
+        height: 80vw;
+    }
+    #imagenKario{
+        position: absolute;
+        width: 60vw;
+        height: 50vw;
+        top: 10vw;
+        left: -2vw;
+    }
+    .contenedorimagen{
+        position: absolute;
+        top: 10vw;
+        left: 22vw;
+        width: 90vw;
+        height: 80vw;
+        overflow: hidden;
+    }
+    #imagenDelete{
+        width: 10vw;
+        height: 10vw;
+        position: relative;
+        top: 3vw;
+    }
+    .Titulo{
+        top: -2vw;
+    }
+    #Titulo{
+        font-size: 5vw;
+        
+    }
+    #textoDeIngreso{
+        
+        font-size: 2.3vw;
+        
+    }
+    .Textoingreso2{
+        position: relative;
+        top: -5vw;
+    }
+    #casilla1{
+        width: 55vw;
+        height: 5vw;
+        border: 1px solid #ff6f2c;
+        
+    }
+    #categoria{
+        width: 56vw;
+        height: 6vw;
+        border: 1px solid #ff6f2c;
     
+    }
+    .requerimientos{
+        margin-left: 11vw;
+        display: flex;
+        width: 35vw;
+        height: 29vw;
+        margin-top: -4vw;
+    }
+    .Inputs{
+        
+        font-family: letraBold;
+        font-size: 3vw;
+        
+    }
+    .boton{
+        
+        width: 27vw;
+        height: 7vw;
+        font-size: 3vw;
+        left: 26vw;
+        top: 4vw;
+    }
 }
