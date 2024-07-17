@@ -125,8 +125,8 @@ body{
     height: 12.6vw;
     background-color: #EC610B;
     position: relative;
-    top: -7.5vw;
-    left: -24vw;
+    top: -3.5vw;
+    left: -22vw;
     border-radius: 2vw;
     border-style:dashed;
     border-color: #fff;
@@ -239,12 +239,13 @@ a{
     }
     #container{
         display: none;
-        width: 15vw;
-        height: 35vw;
+        width: 18vw;
+        height: 24vw;
         background-color: #EC610B;
-        position: relative;
-        top: -1vw;
-        left: -29vw;
+        position: absolute;
+        top: 12vw;
+        left: 9vw;
+        z-index: 2;
         
      
     }
@@ -252,9 +253,9 @@ a{
         display: flex;
         text-align: center;
         align-items: center;
-        width: 15vw;
-        height: 5.3vw;
-        font-size: 2.5vw;
+        width: 17.5vw;
+        height: 3.3vw;
+        font-size: 2vw;
     }
     #imgmenu1{
         position: relative;

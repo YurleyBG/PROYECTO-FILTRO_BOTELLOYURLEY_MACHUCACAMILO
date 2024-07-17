@@ -20,7 +20,7 @@ body {
 #principal {
     background-color: black;
     width: 100vw;
-    height: 52vw;
+    height: 58vw;
     overflow: hidden;
     margin: -1vw;
     display: flex;
@@ -33,7 +33,7 @@ body {
     background-image: url("pinctures/pexels-pixabay-159400@2x.png");
     background-repeat: no-repeat;
     width: 100vw;
-    height: 70vw;
+    height: 75vw;
     margin-top: 8vw;
     display: flex;
     justify-content: center;
@@ -248,24 +248,21 @@ a {
         background-color: black;
         width: 100vw;
         height: 100vw;
-        
         margin: -1vw;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     #fondo2 {
         background-size: 100vw;
         background-image: url("pinctures/pexels-pixabay-159400@2x.png");
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         width: 100vw;
         height: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
     #cajalogo {
         position: relative;
         top: -4vw;
@@ -279,7 +276,6 @@ a {
         width: 60vw;
         height: 50vw;
     }
-    
     #cajablanca {
         position: absolute;
         top: 2vw;
@@ -291,11 +287,10 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
-    
     }
     #imgañadir {
         position: relative;
-        top: -30vw;
+        top: -28vw;
         left: -4vw;
         width: 7vw;
         height: 7vw;
@@ -303,11 +298,10 @@ a {
     #cont2 {
         font-family: letraBold;
         position: relative;
-        top: -36vw;
+        top: -34vw;
         left: 7vw;
         color: #EC610B;
         font-size: 3vw;
-    
     }
     #cont3 {
         position: relative;
@@ -324,47 +318,34 @@ a {
         flex-direction: column;
         width: 38vw;
         height: 30vw;
-      
-    
     }
-    
     #cajainput2 {
         position: relative;
         left: 8vw;
-        top: -29vw;
+        top: -31vw;
         display: flex;
         flex-direction: column;
         width: 38vw;
         height: 35vw;
-    
     }
     .ingresar {
         border-style: none;
         border: 1px solid;
-        width: 35vw;
+        width: 37.2vw;
         height: 3vw;
         border-color: #EC610B;
         margin-top: 0.5vw;
         font-size: 2vw;
-    
-    
     }
-    
     .ingresar1 {
-        width: 35vw;
-        height: 3vw;
         border: 1px solid;
         border-color: #EC610B;
         margin-top: 0.5vw;
         font-size: 2vw;
-    
-    
     }
-    
     .text {
         font-family: letraBold;
         font-size: 1.7vw;
-    
     }
     #botonañadir {
         background-color: #EC610B;
@@ -379,50 +360,47 @@ a {
         align-items: center;
         text-align: center;
         justify-content: center;
-    
-    
     }
     #categoria{
-        width: 36.7vw;
+        width: 38.7vw;
         height: 3.8vw;
     }
     #Fecha{
-        width: 35vw;
+        width: 38vw;
         height: 3.5vw;
     }
     #FechaTerminacion{
-        width: 35vw;
+        width: 38vw;
         height: 4vw;
     }
     #formula{
-        width: 35vw;
+        width: 37.2vw;
         height: 3.5vw;
     }
     #frecuencia{
-        width: 36.5vw;
+        width: 38.7vw;
         height: 4.5vw;
     }
     #cumplimiento{
-        width: 26vw;
+        width: 37.5vw;
         height: 2vw;
     }
     #area{
-        width: 36.7vw;
+        width: 38.7vw;
         height: 4.5vw;
     }
     #menu {
         position: relative;
         top: -28vw;
         left: 3vw;
-        width: 5vw;
-        height: 5vw;
+        width: 3vw;
+        height: 3vw;
     }
-    
     #flecha {
         position: relative;
-        width: 5vw;
-        height: 5vw;
-        top: -21vw;
+        width: 3vw;
+        height: 3vw;
+        top: -24vw;
         left: -5vw;
     }
     #caja {
@@ -438,7 +416,6 @@ a {
         border-style: dashed;
         border-color: #fff;
     }
-    
     .opciones {
         position: relative;
         display: flex;
@@ -452,6 +429,5 @@ a {
         font-size: 3vw;
         color: white;
     }
-    
 
 }

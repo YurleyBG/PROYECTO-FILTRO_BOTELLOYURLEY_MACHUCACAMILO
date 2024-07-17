@@ -85,8 +85,8 @@ body{
 #caja{
     border: #000 1px solid;
     display: none;
-    top: 5vw;
-    left: 49vw;
+    top: 3vw;
+    left: 46vw;
     position: absolute;
     width: 10vw;
     height: 10.6vw;
@@ -107,6 +107,7 @@ body{
     border-style:dashed;
     font-size: 1.2vw;
     color: white;
+  
 }
 #abrir{
     display: none;
@@ -146,23 +147,24 @@ a{
     
 }
 #imgayuda{
-    width: 2vw;
-    height: 2vw;
+    width: 4vw;
+    height: 4vw;
     position: absolute;
-    left: 22vw;
+    left: 20vw;
     top:-1vw;
 }
 #text1{
     color: #EC610B;
-    font-size: 2vw;
+    font-size: 3vw;
     position: absolute;
     top: -1.3vw;
+    left: 26vw;
     font-family: letraBold;
 }
 #text2{
-    font-size: 1vw;
+    font-size: 1.5vw;
     position: absolute;
-    top:3vw ;
+    top:3.5vw ;
     font-family: letraRegular;
 
 }
@@ -222,7 +224,7 @@ a{
     width: 25vw;
     height: 7vw;
     position: relative;
-    top: 1vw;
+    top: 2vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -237,7 +239,7 @@ a{
     width: 28vw;
     height: 7vw;
     position: relative;
-    top: 1vw;
+    top: 2vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -252,7 +254,7 @@ a{
     width: 28vw;
     height: 8vw;
     position: relative;
-    top: 1vw;
+    top: 2vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -267,7 +269,7 @@ a{
     width: 28vw;
     height: 8vw;
     position: relative;
-    top: 1vw;
+    top: 2vw;
     background-color: #EC610B;
      border-style: dotted;
     border-color: #f3f2f1;
@@ -301,15 +303,15 @@ a{
 }
 input{
     position: relative;
-    top: -2vw;
+    top: -0.5vw;
     width: 22vw;
     height: 1.5vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 
 label{
-    height: 5vw;
+    height: 3vw;
 }
 #nove{
     font-family: letralight;
@@ -359,7 +361,7 @@ p{
     
     position: absolute;
     font-size:1.5vw ;
-    top: 6vw;
+    top: 5vw;
     left: 12vw;
     width: 5vw;
     height: 2vw;
@@ -403,22 +405,22 @@ p{
     }
     #cajalogo{
         position: relative;
-        top: -4vw;
+        top: -12vw;
         width: 50vw;
-        height: 31vw;
+        height: 41vw;
         overflow: hidden;
     }
     #logo{
         position: absolute;
         top: -8vw;
         width: 50vw;
-        height: 44.5vw;
+        height: 54.5vw;
     }
     #cajablanca{
         position: absolute;
         top: 5vw;
         width: 60vw;
-        height: 70vw;
+        height: 65vw;
         background-color: #fff;
         opacity: 80%;
         border-radius: 4vw;
@@ -430,14 +432,260 @@ p{
     #menu{
         position: absolute;
         left: 51vw;
-        top: -14vw;
-        width: 4vw;
-        height: 4vw;
+        top: -12vw;
+        width: 2vw;
+        height: 2vw;
     }
     #flecha{
         position: absolute;
-        top: -14vw;
-        width: 4vw;
+        top: -12vw;
+        width: 2vw;
+        height: 2vw;
+    }
+    #cajatitulo{
+       
+        position: relative;
+        top: -10vw;
+        width: 56vw;
+        height:10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #imgayuda{
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        left: 20vw;
+        top:-1vw;
+    }
+    #text1{
+        color: #EC610B;
+        font-size: 4vw;
+        position: absolute;
+        top: 0.1vw;
+        left: 26vw;
+        font-family: letraBold;
+    }
+    #text2{
+        font-size: 2vw;
+        position: absolute;
+        top:6vw ;
+        font-family: letraRegular;
+    
+    }
+    #contenido{
+        width: 50vw;
+        height: 84vw;
+        position: absolute;
+        top: -20vw;
+        left:2.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    #opcio{
+        width: 44vw;
         height: 4vw;
+        background-color:#EC610B;
+        position: relative;
+        border-radius: 2vw;
+        color: #f8f6f4;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: 2vw;
+        font-family: letraRegular;
+        top: -7vw;
+        
+        
+    }
+    label{
+        height: 6vw;
+    }
+    #flechaacor{
+        width: 2vw;
+        height: 2vw;
+        transform: rotateZ(-90deg);
+        position:relative ;
+        top: -2.5vw;
+        left: 39vw;
+        z-index: 2;
+        
+    }
+    #flechaacor1{
+        width: 2vw;
+        height: 2vw;
+        transform: rotateZ(-90deg);
+        position:relative ;
+        top: -2.5vw;
+        left: 39vw;
+        z-index: 2;
+        
+    }
+    #flechaacor2{
+        width: 2vw;
+        height: 2vw;
+        transform: rotateZ(-90deg);
+        position:relative ;
+        top: -2.5vw;
+        left: 39vw;
+        z-index: 2;
+    }
+    #flechaacor3{
+        width: 2vw;
+        height: 2vw;
+        transform: rotateZ(-90deg);
+        position:relative ;
+        top: -2.5vw;
+        left: 39vw;
+        z-index: 2;
+        
+    }
+    #contetext1{
+        display: none;
+        width: 40vw;
+        height: 10vw;
+        position: relative;
+        top: -4vw;
+        background-color: #EC610B;
+        border-style: dotted;
+        border-color: #f3f2f1;
+    }
+    #contetext2{
+        display: none;
+        width: 40vw;
+        height: 10vw;
+        position: relative;
+        top: -4vw;
+        background-color: #EC610B;
+        border-style: dotted;
+        border-color: #f3f2f1;
+    }
+    #contetext3{
+        display: none;
+        width: 40vw;
+        height: 10vw;
+        position: relative;
+        top: -4vw;
+        background-color: #EC610B;
+        border-style: dotted;
+        border-color: #f3f2f1;
+    }
+    #contetext4{
+        display: none;
+        width: 40vw;
+        height: 10vw;
+        position: relative;
+        top: -4vw;
+        background-color: #EC610B;
+        border-style: dotted;
+        border-color: #f3f2f1;
+    }
+    #textmens{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2vw;
+        color: #fff;
+        font-family: letraBold;
+        position: relative;
+        top: -1vw;
+    }
+    
+    input{
+        position: relative;
+        top: -2vw;
+        width: 32vw;
+        height: 1.5vw;
+        font-size: 1.5vw;
+    }
+    #nove{
+        font-family: letralight;
+        position: relative;
+        top: 1vw;
+        left: 1vw;
+        font-size: 1.5vw;
+        color: white;
+    }
+    p{
+        font-size: 1.5vw;
+        color: #000;
+        position: relative;
+        top: -1.5vw;
+    }
+    #textmens1{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.8vw;
+        color: #fff;
+        font-family: letraBold;
+        position: relative;
+        top: -1vw;
+    }
+    #textmens2{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.8vw;
+        color: #fff;
+        font-family: letraBold;
+        position: relative;
+        top: 0.5vw;
+    }
+    #escribir1{
+        position: relative;
+        left: 3.5vw;
+        top: -1vw;
+        width: 34vw;
+        height: 1vw;
+    
+    }
+    #botonenviar{
+        
+        position: absolute;
+        font-size:1.5vw ;
+        top: 7.2vw;
+        left: 16vw;
+        width: 8vw;
+        height: 2.5vw;
+        background-color: #faf9f9;
+    
+       
+    }
+    #caja{
+        border: #000 1px solid;
+        display: none;
+        top: -10vw;
+        left: 45vw;
+        position: absolute;
+        width: 12.5vw;
+        height: 15.6vw;
+        background-color: #EC610B;
+        z-index: 3;
+        border-radius: 2vw;
+        border-style:dashed;
+        border-color: #fff;
+    }
+    .opciones{
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 12.5vw;
+        height: 2.7vw;
+        border:#fdfafa 1px solid;
+        border-style:dashed;
+        font-size: 1.5vw;
+        color: white;
+       
     }
 }
