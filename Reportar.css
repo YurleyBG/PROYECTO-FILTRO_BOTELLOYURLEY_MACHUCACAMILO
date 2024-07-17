@@ -7,16 +7,17 @@
     font-family: letraBold;
     src: url("Type font/MYRIADPRO-BOLD.OTF");
 }
+body{
+    background-color: #000000;
+}
 .contenedorimagen{
     position: absolute;
     top: 10vw;
     left: 30vw;
     width: 39.5vw;
     height: 31vw;
-    
     overflow: hidden;
 }
-
 .contenedor{
     width: 100vw;
     height: 50vw;
@@ -31,9 +32,18 @@
     background-color: black;
     width: 100vw;
     height: 50vw;
-    
 }
-
+.contenido{
+    width: 50vw;
+    height:34vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: -0.3vw;
+    left: 2.5vw;
+}
 .contenedor1{
     margin-top: 3vw;
     position: absolute;
@@ -56,157 +66,386 @@
     left: -2vw;
 }
 .Titulo{
+    flex-direction: column;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     position: relative;
-    gap: 1vw;
-    top: 2vw;
+    top: -5vw;
+    width: 50vw;
+    height: 9vw;
 }
 #imagenDelete{
-    width: 4.5vw;
-    height: 5.5vw;
+    width: 3.5vw;
+    height: 3.5vw;
     position: relative;
-    top: 0.8vw;
+    top: 5vw;
+    left: -6vw;
 }
 #Titulo{
-    font-size: 2.3vw;
+    position: relative;
+    top: -1vw;
+    left: 2vw;
+    font-size: 2.5vw;
     font-family: letraBold;
     color: #ff6f2c;
 }
 #textoDeIngreso{
+    position: relative;
+    top: -3vw;
     font-family: letraRegular;
     font-size: 1.2vw;
     color: #000000;
 }
-.Textoingreso2{
-    position: relative;
-    top: 1vw;
-}
 .requerimientos{
-    margin-left: 11vw;
-    display: flex;
-    width: 30vw;
-    height: 20vw;
-    margin-top: 3vw;
-}
-#usuario{
-    margin-top: 0.5vw;
-    font-family: letraBold;
-    color: #000000;
-    font-size: 1vw;
-    display: flex;
+    margin-left: 5vw;
+    width: 40vw;
+    height: 15vw;
+    margin-top:-3vw;
 }
 #botonn{
+  
+    position: relative;
+    top: 5vw;
     text-decoration: none;
 }
 .boton{
+  
     position: relative;
     font-family: letraBold;
     display: flex;
     text-align: center;
     justify-content: center;
     width: 15vw;
-    align-items: center;
     height: 3vw;
     border-radius: 5vw;
     background-color: #ff6f2c;
-    font-size: 1.5vw;
-    color: rgb(255, 255, 255);
-    left: 22vw;
-    
+    font-size: 1.8vw;
+    color: #fff;
+    top: 1vw;
+    left: 12vw;
+  
 }
 #menuseleccion{
     position: relative;
     left: 15vw;
     top: -1.8vw;
     width: 4vw;
-
 }
 .Inputs{
-    text-align: start;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    width: 80%;
     font-family: letraBold;
     font-size: 1.5vw;
 }
 #casilla1{
-    width: 36vw;
+    font-size: 1.3vw;
+    width: 39.5vw;
     height: 2.5vw;
     border: 1px solid #ff6f2c;
-    font-size: 1.5vw;
+}
+label{
+    position: relative;
+    left: -17vw;
+    font-size: 1.3vw;
+}
+#area{
+    position: relative;
+    left: -18.5vw;
+    font-size: 1.3vw;
+}
+#motivo{
+    position: relative;
+    left: -18vw;
+    font-size: 1.3vw;
 }
 #categoria{
-    width: 36.5vw;
-    height: 2.5vw;
+    width: 40vw;
+    height: 2.8vw;
     border: 1px solid #ff6f2c;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
+#container{
+    position: relative;
+    top: -3.5vw;
+    left: -0.1vw;
+    width: 50vw;
+    height: 2vw;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#menu{
+    position: relative;
+    width: 1.5vw;
+    top: 0.2vw;
+    left: 38vw;
+    height: 1.5vw;
+}
+#flecha{
+    position: relative;
+    left: -20vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+#caja{
+    display: none;
+    top: 2.5vw;
+    left: 39vw;
+    position: absolute;
+    width: 10vw;
+    height: 10.6vw;
+    background-color: #EC610B;
+    z-index: 2;
+    border-radius: 2vw;
+    border-style:dashed;
+    border-color: #fff;
+}
+.opciones{
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 10vw;
+    height: 2vw;
+    border:#fdfafa 1px solid;
+    border-style:dashed;
+    font-size: 1.2vw;
+    color: white;
+}
+#abrir{
+    width: 2vw;
+    height: 2vw;
+    display: none;
+    position: relative;
+    left: 18.5vw;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#abrir:checked~#caja{
+    display: block;
+}
+
 
 
 
 @media screen and (max-width: 500px){
-    .contenedor1{
-        width: 49vw;
-        height: 54vw;
-        
+    .contenedorimagen{
+        position: absolute;
+        top: 10vw;
+        left: 30vw;
+        width: 39.5vw;
+        height: 100vw;
     }
-    #imagenKario{
-        position: relative;
-        top: -8vw;
-        width: 7vw;
-        height: 7vw;
-    }
-    #Titulo{
-        position: relative;
-        top: -8vw;
-        font-size: 2.5vw;
-        font-family:letraRegular;
-    }
-    #textoDeIngreso{
-        font-family: letraLight;
-        margin-top: -9vw;
-        font-size: 1.5vw;
-        color: #000000;
-    }
-    .casillaUsuario{
-        margin-top: -1vw;
-        width: 35vw;
-        height: 5vw;
-        margin-left: -1vw;
-    }
-    #usuario{
-        font-family: letraLight;
-        color: #000000;
-        font-size: 1.8vw;
-        display: flex;
-        margin-top: -0.1vw;
-    }
-    .boton{
-        position: relative;
-        top: 8vw;
-        width: 20vw;
-        left: -1.4vw;
-        align-items: center;
-        height: 5vw;
-        font-size: 2vw;
+    body{
+        background-color: #000000;
     }
     .contenedor{
         width: 100vw;
-        height: 80vw;
+        height: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        overflow: hidden;
-        margin:-1vw;
+        margin:-5vw;
     }
     #imagenFondo{
-        overflow: hidden;
-        background-color: black;
         width: 100vw;
-        height: 110vw;
-        margin-top: 7vw;
+        height: 90vw;
     }
-    
+    .contenedor1{
+        width: 80vw;
+        height: 72vw;
+    }
+    #imagenKario{
+        position: absolute;
+        width: 57vw;
+        height: 50vw;
+        top: 20vw;
+        left: 4vw;
+    }
+    .contenedorimagen{
+        position: absolute;
+        top:5vw;
+        left: 20vw;
+        width: 68vw;
+        height: 66vw;
+        overflow: hidden;
+    }
+    #container{
+        position: relative;
+        top: 1.5vw;
+        left: 0.1vw;
+        width: 75vw;
+        height: 4vw;
+    }
+    #menu{
+        position: relative;
+        width: 3vw;
+        top: -2vw;
+        left: 55vw;
+        height: 3vw;
+    }
+    #flecha{
+        position: relative;
+        left: -28vw;
+        width: 3vw;
+        height: 3vw;
+    }
+    #caja{
+        display: none;
+        top: 6vw;
+        left: 54vw;
+        position: absolute;
+        width: 18vw;
+        height: 24.6vw;
+        background-color: #EC610B;
+        z-index: 2;
+        border-radius: 2vw;
+        border-style:dashed ;
+        border-color: #fff;
+    }
+    .opciones{
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 18vw;
+        height: 4.5vw;
+        border:#fdfafa 1px solid;
+        border-style:dashed;
+        font-size: 2.2vw;
+        color: white;
+    }
+    #abrir{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    #abrir:checked~#caja{
+        display: block;
+    }
+    .Titulo{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0.8vw;
+        width: 75vw;
+        height: 18vw;
+    }
+    #imagenDelete{
+        width: 7vw;
+        height: 7vw;
+        position: relative;
+        top: 8vw;
+        left: -9.5vw;
+    }
+    #Titulo{
+        position: relative;
+        top: -4vw;
+        left: 6.5vw;
+        font-size: 5vw;
+        font-family: letraBold;
+        color: #ff6f2c;
+    }
+    #textoDeIngreso{
+        position: relative;
+        top: -8vw;
+        font-family: letraRegular;
+        font-size: 2.3vw;
+        color: #000000;
+    }
+    .requerimientos{
+        margin-left: 0.2vw;
+        width: 75vw;
+        height: 75vw;
+        margin-top:-1.7vw;
+    }
+    #botonn{
+        text-decoration: none;
+        width: 60vw;
+        height: 5vw;
+    }
+    .boton{
+        position: relative;
+        font-family: letraBold;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 15vw;
+        height: 4vw;
+        border-radius: 5vw;
+        background-color: #ff6f2c;
+        font-size: 1.8vw;
+        color: #fff;
+    }
+    #menuseleccion{
+        position: relative;
+        left: 15vw;
+        top: -1.8vw;
+        width: 4vw;
+    }
+    .Inputs{
+        display:flex;
+        flex-direction: column;
+        font-family: letraBold;
+        font-size: 1.5vw;
+    }
+    #casilla1{
+        position: relative;
+        top: 2vw;
+        left:8vw;
+        width: 60.5vw;
+        height: 4.5vw;
+        border: 1px solid #ff6f2c;
+    }
+    label{
+        position: relative;
+        left: -24vw;
+        top:2vw;
+        font-size: 2.5vw;
+    }
+    #area{
+        position: relative;
+        left: -26.4vw;
+        font-size: 2.8vw;
+    }
+    #motivo{
+        position: relative;
+        left: -25.5vw;
+        font-size: 2.8vw;
+    }
+    #categoria{
+        position: relative;
+        top: 2vw;
+        left:8vw;
+        width: 61.5vw;
+        height: 5.8vw;
+        border: 1px solid #ff6f2c;
+        font-size: 2vw;
+    }
+    #botonn{
+        text-decoration: none;
+    }
+    .boton{
+        position: relative;
+        font-family: letraBold;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 20vw;
+        height: 5vw;
+        border-radius: 5vw;
+        background-color: #ff6f2c;
+        font-size:2.8vw;
+        color: #fff;
+        left: 28vw;
+        top: 4vw;
+    }
 }

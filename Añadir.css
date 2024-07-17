@@ -11,6 +11,9 @@
     font-family: letraRegular;
     src: url("Type font/Myriad\ Pro\ Regular.ttf");
 }
+body{
+    background-color: #000000;
+}
 #principal{
     background-color: black;
     width: 100vw;

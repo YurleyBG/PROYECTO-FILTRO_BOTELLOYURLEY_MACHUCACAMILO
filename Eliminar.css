@@ -127,9 +127,10 @@ body{
     display:flex;
     flex-direction: column;
     font-family: letraBold;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 #casilla1{
+    font-size: 1.3vw;
     width: 39.5vw;
     height: 2.5vw;
     border: 1px solid #ff6f2c;

@@ -16,13 +16,22 @@
         </div>
         <div class="contenedor1">
             <div class="contenido">
+                <div id="container">
+                    <a href="index7.html"><img id="flecha" src="pinctures/puntas-de-flecha-de-contorno-delgado-a-la-izquierda.png" alt=""></a>
+                    <label for="abrir"><img id="menu" src="pinctures/Repeat Grid 2@2x.png" alt=""></label>
+                    <input type="checkbox" id="abrir">
+                    <div id="caja">
+                        <div class="opciones"><a href="index7.html">Inicio</a></div>
+                        <div class="opciones"><a href="Perfil.html">perfil</a></div>
+                        <div class="opciones"><a href="Añadir.html.html">Añadir</a></div>
+                        <div class="opciones"><a href="Eliminar.html">Eliminar</a></div>
+                        <div class="opciones"><a href="Ayuda.html">Ayuda</a></div>
+                    </div>
+                </div> 
                 <div class="Titulo">
                     <img id="imagenDelete" src="pinctures/Icon material-bug-report@2x.png" alt="">
                     <p id="Titulo">Reportar</p>
-
-                </div>
-                <div class="Textoingreso2">
-                <p id="textoDeIngreso">Por favor ingrese los datos del indicador que desea Reportar</p>
+                    <p id="textoDeIngreso">Por favor ingrese los datos del indicador que desea Reportar</p>
                 </div>
                 <div class="requerimientos">
                     <div class="Inputs">
@@ -35,18 +44,26 @@
                             <option id="occiones" value="media">Media</option>
                             <option id="occiones" value="alta">Alta</option>
                         </select>
-                        <label for="Tipo">área</label>
-                        <input id="casilla1" type="text">
-                        <label for="Tipo">Motivo</label>
+                        <label for="Tipo" id="area">Área</label>
+                        <select name="Area" id="categoria">
+                            <option value="">Marketing</option>
+                            <option value="">Diseño</option>
+                            <option value="">Developers</option>
+                            <option value="">Gerencia</option>
+                            <option value="">Producción</option>
+                            <option value="">Otros</option>
+                        </select>
+                        <label id="motivo">Motivo</label>
                         <input id="casilla1" type="text">
                         
                     </div>
-                </div>
-                <a id="botonn" href="index7.html">
-                    <div class="boton">
-                        <p>Reportar</p>
-                    </div>
-                </a>
+                   <div>
+                    <a  href="index7.html">
+                        <div class="boton"> Reportar </div>
+                    </a>
+                   </div>
+                   
+                
             </div>
 
         </div>
