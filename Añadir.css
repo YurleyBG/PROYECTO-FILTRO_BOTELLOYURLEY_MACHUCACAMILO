@@ -2,6 +2,7 @@
     font-family: letraBold;
     src: url("Type font/MYRIADPRO-BOLD.OTF");
 }
+
 @font-face {
     font-family: letralight;
     src: url("Type font/MyriadPro-Light.otf");
@@ -11,44 +12,50 @@
     font-family: letraRegular;
     src: url("Type font/Myriad\ Pro\ Regular.ttf");
 }
-body{
+
+body {
     background-color: #000000;
 }
-#principal{
+
+#principal {
     background-color: black;
     width: 100vw;
-    height:52vw;
+    height: 52vw;
     overflow: hidden;
-    margin:-1vw;
+    margin: -1vw;
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
 }
-#fondo2{
+
+#fondo2 {
     background-size: 100vw;
     background-image: url("pinctures/pexels-pixabay-159400@2x.png");
     background-repeat: no-repeat;
     width: 100vw;
-    height:70vw;
+    height: 70vw;
     margin-top: 8vw;
     display: flex;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
 }
-#cajalogo{
+
+#cajalogo {
     position: relative;
     top: -4vw;
     width: 45vw;
     height: 31vw;
     overflow: hidden;
 }
-#logo{
+
+#logo {
     position: relative;
     top: -8vw;
     width: 48vw;
     height: 44.5vw;
 }
-#cajablanca{
+
+#cajablanca {
     position: absolute;
     top: 5vw;
     width: 60vw;
@@ -61,30 +68,34 @@ body{
     align-items: center;
 
 }
-#container{
+
+#container {
     border-radius: 4vw;
     width: 56vw;
     height: 36vw;
 }
-#cajatitulo{
+
+#cajatitulo {
     position: relative;
     top: -1vw;
     width: 56vw;
-    height:5vw;
+    height: 5vw;
     display: flex;
     justify-content: center;
-   align-items: center;
-   flex-direction: column;
-  
+    align-items: center;
+    flex-direction: column;
+
 }
-#imgañadir{
+
+#imgañadir {
     position: relative;
     top: 0.5vw;
     left: -3vw;
     width: 2vw;
     height: 2vw;
 }
-#cont2{
+
+#cont2 {
     font-family: letraBold;
     position: relative;
     top: -2vw;
@@ -93,62 +104,69 @@ body{
     font-size: 2vw;
 
 }
-#cont3{
+
+#cont3 {
     position: relative;
     top: -1.5vw;
     left: 1vw;
     font-family: letralight;
     font-size: 1.5vw;
 }
-#cajainput1{
-    position:relative;
+
+#cajainput1 {
+    position: relative;
     left: 3vw;
     top: 2vw;
     display: flex;
     flex-direction: column;
-    width:22vw;
+    width: 22vw;
     height: 20vw;
-   
-    
+
+
 }
-#cajainput2{
-    position:relative;
+
+#cajainput2 {
+    position: relative;
     left: 31vw;
     top: -18vw;
     display: flex;
     flex-direction: column;
-    width:22vw;
+    width: 22vw;
     height: 20vw;
-   
-    
+
+
 }
-.ingresar{
+
+.ingresar {
     border-style: none;
-    border: 1px solid ;
+    border: 1px solid;
     width: 22.5vw;
     height: 1.7vw;
     border-color: #EC610B;
     margin-top: 0.5vw;
     font-size: 1vw;
-    
-    
+
+
 }
-.ingresar1{
+
+.ingresar1 {
     width: 23vw;
     height: 2vw;
-    border: 1px solid ;
+    border: 1px solid;
     border-color: #EC610B;
     margin-top: 0.5vw;
     font-size: 1vw;
- 
-    
+
+
 }
-.text{
+
+.text {
     font-family: letraBold;
     font-size: 1.2vw;
-    
+
 }
-#botonañadir{
+
+#botonañadir {
     background-color: #EC610B;
     width: 14vw;
     height: 3vw;
@@ -156,31 +174,34 @@ body{
     top: -15vw;
     left: 21.5vw;
     border-radius: 1vw;
-    
-    
-}
-#textañadir{
-    margin-left: 3.8vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     font-size: 2vw;
-    color:white;
+    color: white;
     font-family: letraBold;
+
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-#menu{
+
+#menu {
     margin-top: 1vw;
     margin-left: 52vw;
     width: 1.5vw;
     height: 1.5vw;
 }
-#flecha{
+
+#flecha {
     width: 1.5vw;
     height: 1.5vw;
 }
 
-#caja{
+#caja {
     display: none;
     top: 5vw;
     left: 49vw;
@@ -190,31 +211,247 @@ a{
     background-color: #EC610B;
     z-index: 2;
     border-radius: 2vw;
-    border-style:dashed;
+    border-style: dashed;
     border-color: #fff;
 }
-.opciones{
+
+.opciones {
     position: relative;
     display: flex;
     text-align: center;
     justify-content: center;
     width: 10vw;
     height: 2vw;
-    border:#fdfafa 1px solid;
-    border-style:dashed;
+    border: #fdfafa 1px solid;
+    border-style: dashed;
     font-size: 1.2vw;
     color: white;
+    align-items: center ;
 }
-#abrir{
+
+#abrir {
     display: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #fff;
 }
-#abrir:checked~#caja{
+
+#abrir:checked~#caja {
     display: block;
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 500px) {
+
+    #principal {
+        background-color: black;
+        width: 100vw;
+        height: 100vw;
+        
+        margin: -1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fondo2 {
+        background-size: 100vw;
+        background-image: url("pinctures/pexels-pixabay-159400@2x.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cajalogo {
+        position: relative;
+        top: -4vw;
+        width: 60vw;
+        height: 45vw;
+        overflow: hidden;
+    }
+    #logo {
+        position: relative;
+        top: -2vw;
+        width: 60vw;
+        height: 50vw;
+    }
+    
+    #cajablanca {
+        position: absolute;
+        top: 2vw;
+        width: 80vw;
+        height: 90vw;
+        background-color: #fff;
+        opacity: 80%;
+        border-radius: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    #imgañadir {
+        position: relative;
+        top: -30vw;
+        left: -4vw;
+        width: 7vw;
+        height: 7vw;
+    }
+    #cont2 {
+        font-family: letraBold;
+        position: relative;
+        top: -36vw;
+        left: 7vw;
+        color: #EC610B;
+        font-size: 3vw;
+    
+    }
+    #cont3 {
+        position: relative;
+        top: -32vw;
+        left: 1vw;
+        font-family: letralight;
+        font-size: 2.2vw;
+    }
+    #cajainput1 {
+        position: relative;
+        left: 8vw;
+        top: -27vw;
+        display: flex;
+        flex-direction: column;
+        width: 38vw;
+        height: 30vw;
+      
+    
+    }
+    
+    #cajainput2 {
+        position: relative;
+        left: 8vw;
+        top: -29vw;
+        display: flex;
+        flex-direction: column;
+        width: 38vw;
+        height: 35vw;
+    
+    }
+    .ingresar {
+        border-style: none;
+        border: 1px solid;
+        width: 35vw;
+        height: 3vw;
+        border-color: #EC610B;
+        margin-top: 0.5vw;
+        font-size: 2vw;
+    
+    
+    }
+    
+    .ingresar1 {
+        width: 35vw;
+        height: 3vw;
+        border: 1px solid;
+        border-color: #EC610B;
+        margin-top: 0.5vw;
+        font-size: 2vw;
+    
+    
+    }
+    
+    .text {
+        font-family: letraBold;
+        font-size: 1.7vw;
+    
+    }
+    #botonañadir {
+        background-color: #EC610B;
+        width: 20vw;
+        height: 5vw;
+        position: relative;
+        top: -28vw;
+        left: 17vw;
+        border-radius: 1vw;
+        font-size: 2vw;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    
+    
+    }
+    #categoria{
+        width: 36.7vw;
+        height: 3.8vw;
+    }
+    #Fecha{
+        width: 35vw;
+        height: 3.5vw;
+    }
+    #FechaTerminacion{
+        width: 35vw;
+        height: 4vw;
+    }
+    #formula{
+        width: 35vw;
+        height: 3.5vw;
+    }
+    #frecuencia{
+        width: 36.5vw;
+        height: 4.5vw;
+    }
+    #cumplimiento{
+        width: 26vw;
+        height: 2vw;
+    }
+    #area{
+        width: 36.7vw;
+        height: 4.5vw;
+    }
+    #menu {
+        position: relative;
+        top: -28vw;
+        left: 3vw;
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    #flecha {
+        position: relative;
+        width: 5vw;
+        height: 5vw;
+        top: -21vw;
+        left: -5vw;
+    }
+    #caja {
+        display: none;
+        top: 14vw;
+        left: 63vw;
+        position: absolute;
+        width: 13vw;
+        height:37vw;
+        background-color: #EC610B;
+        z-index: 2;
+        border-radius: 2vw;
+        border-style: dashed;
+        border-color: #fff;
+    }
+    
+    .opciones {
+        position: relative;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 13vw;
+        height: 7vw;
+        border: #fdfafa 1px solid;
+        border-style: dashed;
+        font-size: 3vw;
+        color: white;
+    }
+    
 
 }
