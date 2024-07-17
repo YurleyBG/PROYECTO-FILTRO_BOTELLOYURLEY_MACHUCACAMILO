@@ -182,7 +182,6 @@ a{
     height: 10.6vw;
     background-color: #EC610B;
     z-index: 2;
-    border-radius: 2vw;
     border-style:dashed;
     border-color: #fff;
 }
@@ -197,6 +196,10 @@ a{
     border-style:dashed;
     font-size: 1.2vw;
     color: white;
+}
+.opciones:hover{
+   
+    background-color: rgb(48, 56, 56);
 }
 #abrir{
     display: none;

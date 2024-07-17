@@ -125,9 +125,8 @@ body{
     height: 12.6vw;
     background-color: #EC610B;
     position: relative;
-    top: -3.5vw;
+    top: -6.5vw;
     left: -22vw;
-    border-radius: 2vw;
     border-style:dashed;
     border-color: #fff;
  
@@ -143,6 +142,10 @@ body{
     border-style:dashed;
     font-size: 1.2vw;
     color: white;
+}
+.opciones:hover{
+   
+    background-color: rgb(48, 56, 56);
 }
 #imgmenu1{
     position: relative;
