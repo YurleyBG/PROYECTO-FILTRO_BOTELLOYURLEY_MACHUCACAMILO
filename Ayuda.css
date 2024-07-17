@@ -130,19 +130,19 @@ a{
 }
 #opcio{
     width: 28vw;
-    height: 1.5vw;
+    height: 2vw;
     background-color:#EC610B;
-    border: 2px solid #f3f2f1;
     position: relative;
     border-radius: 2vw;
     color: #f8f6f4;
+    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
     font-size: 1vw;
     font-family: letraRegular;
-    padding:0.5vw ;
-    position: relative;
-    top: -1vw;
+    gap: 1vw;
+    
     
 }
 #imgayuda{
@@ -171,7 +171,7 @@ a{
     height: 1vw;
     transform: rotateZ(-90deg);
     position:relative ;
-    top: 1.5vw;
+    top: 2vw;
     left: 26vw;
     z-index: 2;
     
@@ -181,7 +181,7 @@ a{
     height: 1vw;
     transform: rotateZ(-90deg);
     position:relative ;
-    top: 1.5vw;
+    top: 2vw;
     left: 26vw;
     z-index: 2;
     
@@ -191,7 +191,7 @@ a{
     height: 1vw;
     transform: rotateZ(-90deg);
     position:relative ;
-    top: 1.5vw;
+    top: 2vw;
     left: 26vw;
     z-index: 2;
 }
@@ -200,7 +200,7 @@ a{
     height: 1vw;
     transform: rotateZ(-90deg);
     position:relative ;
-    top: 1.5vw;
+    top: 2vw;
     left: 26vw;
     z-index: 2;
     
@@ -219,10 +219,10 @@ a{
 }
 #contetext1{
     display: none;
-    width: 28vw;
-    height: 8vw;
+    width: 25vw;
+    height: 7vw;
     position: relative;
-    top: -1vw;
+    top: 1vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -235,9 +235,9 @@ a{
 #contetext2{
     display: none;
     width: 28vw;
-    height: 8vw;
+    height: 7vw;
     position: relative;
-    top: -1vw;
+    top: 1vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -252,7 +252,7 @@ a{
     width: 28vw;
     height: 8vw;
     position: relative;
-    top: -1vw;
+    top: 1vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -267,7 +267,7 @@ a{
     width: 28vw;
     height: 8vw;
     position: relative;
-    top: -1vw;
+    top: 1vw;
     background-color: #EC610B;
      border-style: dotted;
     border-color: #f3f2f1;
@@ -301,9 +301,10 @@ a{
 }
 input{
     position: relative;
-    top: -1vw;
+    top: -2vw;
     width: 22vw;
     height: 1.5vw;
+    font-size: 1.5vw;
 }
 
 
@@ -377,4 +378,66 @@ p{
     justify-content: center;
     align-items: center;
    
+}
+@media screen and (max-width: 500px) {
+    #principal{
+        background-color: black;
+        width: 100vw;
+        height:100vw;
+        overflow: auto;
+        margin:-1vw;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+    }
+    #fondo2{
+        background-size: 100vw;
+        background-image: url("pinctures/pexels-pixabay-159400@2x.png");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height:100vw;
+        margin-top: 8vw;
+        display: flex;
+         justify-content: center;
+        align-items: center;
+    }
+    #cajalogo{
+        position: relative;
+        top: -4vw;
+        width: 50vw;
+        height: 31vw;
+        overflow: hidden;
+    }
+    #logo{
+        position: absolute;
+        top: -8vw;
+        width: 50vw;
+        height: 44.5vw;
+    }
+    #cajablanca{
+        position: absolute;
+        top: 5vw;
+        width: 60vw;
+        height: 70vw;
+        background-color: #fff;
+        opacity: 80%;
+        border-radius: 4vw;
+        display: flex;
+        justify-content: center;
+       align-items: center;
+    
+    }
+    #menu{
+        position: absolute;
+        left: 51vw;
+        top: -14vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    #flecha{
+        position: absolute;
+        top: -14vw;
+        width: 4vw;
+        height: 4vw;
+    }
 }
