@@ -52,7 +52,7 @@ body{
     position: absolute;
     top: 5vw;
     width: 60vw;
-    height: 40vw;
+    height: 42vw;
     background-color: #fff;
     opacity: 80%;
     border-radius: 4vw;
@@ -62,22 +62,28 @@ body{
 
 }
 #container{
-    border-radius: 4vw;
+ 
     width: 56vw;
-    height: 36vw;
+    height: 4vw;
+    position: relative;
+    top: -15vw;
 }
 #menu{
-    margin-top:1vw;
-    margin-left: 52vw;
+    position: absolute;
+    left: 53vw;
+    top: 1vw;
     width: 1.5vw;
     height: 1.5vw;
 }
 #flecha{
+    position: absolute;
+    top: 1vw;
     width: 1.5vw;
     height: 1.5vw;
 }
 
 #caja{
+    border: #000 1px solid;
     display: none;
     top: 5vw;
     left: 49vw;
@@ -113,6 +119,8 @@ a{
     display: block;
 }
 #cajatitulo{
+    position: relative;
+    top: 2vw;
     width: 56vw;
     height:5vw;
     display: flex;
@@ -120,52 +128,41 @@ a{
     align-items: center;
     flex-direction: column;
 }
-
-#cajaopciones{
-    margin-top:-2vw ;
-    width: 56vw;
-    height:30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: absolute;
-}
 #opcio{
     width: 28vw;
     height: 1.5vw;
     background-color:#EC610B;
     border: 2px solid #f3f2f1;
-    margin-top: -0.5vw;
+    position: relative;
     border-radius: 2vw;
     color: #f8f6f4;
-    opacity: 20vw;
     justify-content: center;
     text-align: center;
     font-size: 1vw;
-    z-index: 2;
     font-family: letraRegular;
     padding:0.5vw ;
+    position: relative;
+    top: -1vw;
     
 }
 #imgayuda{
     width: 2vw;
     height: 2vw;
-    position: relative;
-    left: -4vw;
-    top:1vw;
+    position: absolute;
+    left: 22vw;
+    top:-1vw;
 }
 #text1{
     color: #EC610B;
     font-size: 2vw;
-    position: relative;
+    position: absolute;
     top: -1.3vw;
     font-family: letraBold;
 }
 #text2{
     font-size: 1vw;
-    position: relative;
-    top:-1vw ;
+    position: absolute;
+    top:3vw ;
     font-family: letraRegular;
 
 }
@@ -173,9 +170,39 @@ a{
     width: 1vw;
     height: 1vw;
     transform: rotateZ(-90deg);
-    position: relative;
+    position:relative ;
     top: 1.5vw;
     left: 26vw;
+    z-index: 2;
+    
+}
+#flechaacor1{
+    width: 1vw;
+    height: 1vw;
+    transform: rotateZ(-90deg);
+    position:relative ;
+    top: 1.5vw;
+    left: 26vw;
+    z-index: 2;
+    
+}
+#flechaacor2{
+    width: 1vw;
+    height: 1vw;
+    transform: rotateZ(-90deg);
+    position:relative ;
+    top: 1.5vw;
+    left: 26vw;
+    z-index: 2;
+}
+#flechaacor3{
+    width: 1vw;
+    height: 1vw;
+    transform: rotateZ(-90deg);
+    position:relative ;
+    top: 1.5vw;
+    left: 26vw;
+    z-index: 2;
     
 }
 #acordeon{
@@ -193,7 +220,9 @@ a{
 #contetext1{
     display: none;
     width: 28vw;
-    height: 10vw;
+    height: 8vw;
+    position: relative;
+    top: -1vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -206,7 +235,9 @@ a{
 #contetext2{
     display: none;
     width: 28vw;
-    height: 10vw;
+    height: 8vw;
+    position: relative;
+    top: -1vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -219,7 +250,9 @@ a{
 #contetext3{
     display: none;
     width: 28vw;
-    height: 10vw;
+    height: 8vw;
+    position: relative;
+    top: -1vw;
     background-color: #EC610B;
     border-style: dotted;
     border-color: #f3f2f1;
@@ -232,7 +265,9 @@ a{
 #contetext4{
     display: none;
     width: 28vw;
-    height: 10vw;
+    height: 8vw;
+    position: relative;
+    top: -1vw;
     background-color: #EC610B;
      border-style: dotted;
     border-color: #f3f2f1;
@@ -250,35 +285,96 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #fff;
     font-family: letraBold;
+    position: relative;
+    top: -1vw;
 }
 #escribir{
     position: relative;
     left: 3vw;
+    top: -1vw;
     width: 22vw;
-    height: 5vw;
+    height: 1vw;
 
 }
 input{
+    position: relative;
+    top: -1vw;
     width: 22vw;
+    height: 1.5vw;
+}
+
+
+label{
     height: 5vw;
 }
-button{
-    
-    position: absolute;
-    font-size:1.5vw ;
-    top: 24.5vw;
-    left: 26vw;
-    width: 5vw;
-    height: 1.5vw;
-    background-color: #eeecea;
-   
+#nove{
+    font-family: letralight;
+    position: relative;
+    top: 1vw;
+    left: 1vw;
+    font-size: 1vw;
+    color: white;
 }
 p{
     font-size: 1vw;
     color: #000;
     position: relative;
     top: -0.9vw;
+}
+#textmens1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3vw;
+    color: #fff;
+    font-family: letraBold;
+    position: relative;
+    top: -1vw;
+}
+#textmens2{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.3vw;
+    color: #fff;
+    font-family: letraBold;
+    position: relative;
+    top: 0.5vw;
+}
+#escribir1{
+    position: relative;
+    left: 3vw;
+    top: -1vw;
+    width: 22vw;
+    height: 1vw;
+
+}
+#botonenviar{
+    
+    position: absolute;
+    font-size:1.5vw ;
+    top: 6vw;
+    left: 12vw;
+    width: 5vw;
+    height: 2vw;
+    background-color: #faf9f9;
+
+   
+}
+#contenido{
+    width: 30vw;
+    height: 84vw;
+    position: absolute;
+    top: -22vw;
+    left: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
