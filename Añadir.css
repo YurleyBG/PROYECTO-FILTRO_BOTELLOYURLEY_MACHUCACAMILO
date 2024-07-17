@@ -124,7 +124,7 @@ body{
 }
 .ingresar{
     border-style: none;
-    border: 2px solid ;
+    border: 1px solid ;
     width: 22.5vw;
     height: 1.7vw;
     border-color: #EC610B;
@@ -136,9 +136,10 @@ body{
 .ingresar1{
     width: 23vw;
     height: 2vw;
-    border: 2px solid ;
+    border: 1px solid ;
     border-color: #EC610B;
     margin-top: 0.5vw;
+    font-size: 1vw;
  
     
 }
@@ -213,4 +214,7 @@ a{
 }
 #abrir:checked~#caja{
     display: block;
+}
+@media screen and (max-width: 500px){
+
 }
