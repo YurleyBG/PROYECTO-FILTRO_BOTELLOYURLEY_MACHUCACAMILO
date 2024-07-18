@@ -135,7 +135,7 @@
     }
     .contenedor1{
         position: absolute;
-       
+        left: 13vw;
         width: 75vw;
         height: 79vw;
         z-index: 2;
