@@ -232,6 +232,9 @@ a{
         top: -4vw;
        left: -4vw;
     }
+    body{
+        background-color: #000000;
+    }
     #imagenFondo{
         background-color: black;
         width: 130vw;

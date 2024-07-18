@@ -981,7 +981,7 @@ a{
     }
     .conte25{
         position: relative;
-        left: -1vw;
+        left: 1vw;
     }
     .conte32{
         position: relative;
@@ -1207,6 +1207,11 @@ a{
         font-size: 3.5vw;
         position: relative;
         top: 2vw;
+    }
+    .porcentaje{
+        position: relative;
+        top: -0.1vw;
+        left:0.01vw;
     }
 
 
