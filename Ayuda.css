@@ -697,9 +697,5 @@ p{
         color: white;
        
     }
-    #opcio:hover{
-        box-shadow:3vw 0.5vw 6vw #EC610B;
-        background-color: rgb(48, 56, 56);
-       
-    }
+    
 }
