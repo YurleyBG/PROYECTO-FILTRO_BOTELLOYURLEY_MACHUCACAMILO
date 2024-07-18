@@ -169,7 +169,7 @@ a{
     display: none;
    
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 435px){
     #fondo2{        
         display: flex;
         justify-content: center;

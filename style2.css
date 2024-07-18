@@ -14,7 +14,7 @@
     margin-top: -5vw;
   
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 435px){
     #principal{
         background-color: black;
         width: 100vw;
