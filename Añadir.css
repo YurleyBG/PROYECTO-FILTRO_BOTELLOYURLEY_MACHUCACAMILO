@@ -12,11 +12,6 @@
     font-family: letraRegular;
     src: url("Type font/Myriad\ Pro\ Regular.ttf");
 }
-
-body {
-    background-color: #000000;
-}
-
 #principal {
     background-color: black;
     width: 100vw;
@@ -249,19 +244,20 @@ a {
 
     #principal {
         background-color: black;
-        width: 100vw;
-        height: 100vw;
-        margin: -1vw;
+        width: 110vw;
+        height: 240%;
+        margin: -3vw;
         display: flex;
         justify-content: center;
         align-items: center;
+        background-size: cover;
     }
     #fondo2 {
-        background-size: 100vw;
+        background-size: cover;
         background-image: url("pinctures/pexels-pixabay-159400@2x.png");
-        background-repeat: repeat;
+        background-repeat:no-repeat ;
         width: 100vw;
-        height: 100vw;
+        height: 220vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -269,6 +265,7 @@ a {
     #cajalogo {
         position: relative;
         top: -4vw;
+        left: -2vw;
         width: 60vw;
         height: 45vw;
         overflow: hidden;
@@ -281,7 +278,8 @@ a {
     }
     #cajablanca {
         position: absolute;
-        top: 2vw;
+        top: 60vw;
+        left: 10vw;
         width: 80vw;
         height: 90vw;
         background-color: #fff;
