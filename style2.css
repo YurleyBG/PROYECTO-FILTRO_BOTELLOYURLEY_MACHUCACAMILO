@@ -6,7 +6,7 @@
     margin:-1vw;
 }
 #fondo2{
-    background-size: 100vw;
+    background-size: cover;
     background-image: url("pinctures/pexels-pixabay-159400@2x.png");
     background-repeat: no-repeat;
     width: 100vw;
@@ -24,12 +24,16 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
-    #fondo2{        
+    #fondo2{     
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 100vw;
+        height: 200vw;
       
     }
     

@@ -6,10 +6,9 @@
     margin:-1vw;
 }
 #fondo2{
-   
-    background-size: 100vw;
     background-image: url("pinctures/pexels-pixabay-159400@2x.png");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height:70vw;
     margin-top: -5vw;
@@ -24,6 +23,8 @@
 @media screen and (max-width: 400px){
     #principal{
         background-color: black;
+        position: relative;
+        top: 0vw;
         width: 100vw;
         height: 200vw;
         margin:-2vw;
@@ -31,13 +32,15 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
     #fondo2{        
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-      
+        background-size: cover;
+        height:200vw;
     }
     #logoimg{
         width: 20vw;
