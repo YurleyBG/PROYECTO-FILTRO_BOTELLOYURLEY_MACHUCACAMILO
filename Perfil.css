@@ -169,16 +169,27 @@ a{
     display: none;
    
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
+    #fondo2{        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-size: cover;
+        height:250vw;
+    }
     #principal{
         background-color: black;
+        position: relative;
+        top: 0vw;
         width: 100vw;
-        height: 200vw;
+        height: 220vw;
         margin:-2vw;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
     #cajablanca{
         position:absolute;
