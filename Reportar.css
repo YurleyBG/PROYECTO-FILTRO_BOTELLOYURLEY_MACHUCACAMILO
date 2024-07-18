@@ -7,9 +7,7 @@
     font-family: letraBold;
     src: url("Type font/MYRIADPRO-BOLD.OTF");
 }
-body{
-    background-color: #000000;
-}
+
 .contenedorimagen{
     position: absolute;
     top: 10vw;
@@ -243,36 +241,39 @@ a{
         width: 39.5vw;
         height: 100vw;
     }
-    body{
-        background-color: #000000;
-    }
     .contenedor{
-        width: 100vw;
-        height: 100vw;
+        width: 105vw;
+        height: 225vw;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin:-5vw;
+        position: relative;
+        top: -4vw;
+       left: -4vw;
+       overflow: hidden;
     }
     #imagenFondo{
-        width: 100vw;
-        height: 90vw;
+        background-color: black;
+        width: 130vw;
+        height: 220vw;
+        margin: -20vw;
+        
     }
     .contenedor1{
         width: 80vw;
-        height: 72vw;
+        height: 75vw;
     }
     #imagenKario{
         position: absolute;
         width: 57vw;
         height: 50vw;
         top: 20vw;
-        left: 4vw;
+        left: 8vw;
     }
     .contenedorimagen{
         position: absolute;
-        top:5vw;
-        left: 20vw;
+        top:65vw;
+        left: 18vw;
         width: 68vw;
         height: 66vw;
         overflow: hidden;
