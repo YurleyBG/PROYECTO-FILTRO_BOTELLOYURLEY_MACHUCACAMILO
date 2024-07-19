@@ -70,8 +70,9 @@
     justify-content: center;
     position: relative;
     top: -5vw;
-    width: 50vw;
+    width: 35vw;
     height: 9vw;
+    left: 8vw;
 }
 #imagenDelete{
     width: 3.5vw;
