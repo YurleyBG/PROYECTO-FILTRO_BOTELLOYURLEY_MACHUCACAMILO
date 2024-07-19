@@ -176,6 +176,7 @@
     font-size: 2vw;
     color: white;
     font-family: letraBold;
+    border-style: none;
 
 }
 
@@ -361,6 +362,7 @@ a {
         align-items: center;
         text-align: center;
         justify-content: center;
+        border-style: none;
     }
     #categoria{
         width: 38.7vw;
