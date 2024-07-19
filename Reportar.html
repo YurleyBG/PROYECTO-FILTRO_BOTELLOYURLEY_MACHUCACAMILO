@@ -41,10 +41,11 @@
                     <p id="textoDeIngreso">Por favor ingrese los datos del indicador que desea Reportar</p>
                 </div>
                         <!--bloque inputs  -->
+                <form action="Reportar.html">
                 <div class="requerimientos">
                     <div class="Inputs">
                         <label for="Tipo">Indicador</label>
-                        <input id="casilla1" type="text">
+                        <input id="casilla1" type="text" required>
 
                         <label for="Tipo">Categoria</label>
                         <select id="categoria">
@@ -62,16 +63,15 @@
                             <option value="">Otros</option>
                         </select>
                         <label id="motivo">Motivo</label>
-                        <input id="casilla1" type="text">
+                        <input id="casilla1" type="text" required>
                         
                     </div>
                             <!--bloque  botón  -->
                    <div>
-                    <a  href="Reportar.html">
-                        <div class="boton"> Reportar </div>
-                    </a>
+                    <input class="boton" type="submit" value="Reportar">
+                    
                    </div>
-                   
+                </form>
                 
             </div>
 

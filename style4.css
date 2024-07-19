@@ -78,6 +78,7 @@
 }
 #botonn{
     text-decoration: none;
+    border: none;
 }
 .boton{
     font-family: letraLight;
@@ -135,7 +136,7 @@
     }
     .contenedor1{
         position: absolute;
-        left: 13vw;
+        left: 18vw;
         width: 75vw;
         height: 79vw;
         z-index: 2;
