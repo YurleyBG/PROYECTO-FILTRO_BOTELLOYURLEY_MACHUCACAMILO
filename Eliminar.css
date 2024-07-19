@@ -327,7 +327,7 @@ a{
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 12.8vw;
+        top: 27vw;
         width: 75vw;
         height: 18vw;
     }
@@ -348,16 +348,17 @@ a{
     }
     #textoDeIngreso{
         position: relative;
-        top: -8vw;
+        top: -6vw;
         font-family: letraRegular;
         font-size: 2.3vw;
         color: #000000;
     }
     .requerimientos{
+        position: relative;
         margin-left: 0.2vw;
         width: 75vw;
         height: 75vw;
-        margin-top:8.7vw;
+        top:30vw;
     }
     #botonn{
         text-decoration: none;
