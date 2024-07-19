@@ -437,5 +437,10 @@ a{
         left: 28vw;
         top: 4vw;
     }
+    form{
+        position: relative;
+        width: 20vw;
+        left: 5vw;
+    }
     
 }
