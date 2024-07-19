@@ -348,12 +348,12 @@ a{
         width: 7vw;
         height: 7vw;
         position: relative;
-        top: 8vw;
+        top: 15vw;
         left: -9.5vw;
     }
     #Titulo{
         position: relative;
-        top: -4vw;
+        top: 4vw;
         left: 6.5vw;
         font-size: 5vw;
         font-family: letraBold;
@@ -361,7 +361,7 @@ a{
     }
     #textoDeIngreso{
         position: relative;
-        top: -8vw;
+        top: 1vw;
         font-family: letraRegular;
         font-size: 2.3vw;
         color: #000000;
@@ -390,6 +390,10 @@ a{
         font-size: 1.8vw;
         color: #fff;
     }
+    #botoon{
+        position: relative;
+        top: 15vw;
+    }
     #menuseleccion{
         position: relative;
         left: 15vw;
@@ -397,6 +401,8 @@ a{
         width: 4vw;
     }
     .Inputs{
+        position: relative;
+        top: 8vw;
         display:flex;
         flex-direction: column;
         font-family: letraBold;
