@@ -280,8 +280,8 @@ a{
         overflow: hidden;
     }
     #container{
-        position: relative;
-        top: 1.5vw;
+        position: absolute;
+        top: -17vw;
         left: 0.1vw;
         width: 75vw;
         height: 4vw;
