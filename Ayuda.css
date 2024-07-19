@@ -14,27 +14,30 @@
 #principal{
     background-color: black;
     width: 100vw;
-    height:52vw;
-    overflow: hidden;
+    height:50vw;
     margin:-1vw;
     display: flex;
     justify-content: center;
    align-items: center;
+   overflow: hidden;
 }
 #fondo2{
+    position: relative;
+    top: -10vw;
     background-size: 100vw;
     background-image: url("pinctures/pexels-pixabay-159400@2x.png");
     background-repeat: no-repeat;
     width: 100vw;
-    height:70vw;
+    height:60vw;
     margin-top: 8vw;
     display: flex;
      justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 #cajalogo{
     position: relative;
-    top: -4vw;
+    top: 5vw;
     width: 45vw;
     height: 31vw;
     overflow: hidden;
@@ -47,7 +50,7 @@
 }
 #cajablanca{
     position: absolute;
-    top: 5vw;
+    top: 15vw;
     width: 60vw;
     height: 42vw;
     background-color: #fff;
@@ -411,7 +414,7 @@ p{
     }
     #cajalogo{
         position: relative;
-        top: -12vw;
+        top: 5vw;
         width: 50vw;
         height: 41vw;
         overflow: hidden;
