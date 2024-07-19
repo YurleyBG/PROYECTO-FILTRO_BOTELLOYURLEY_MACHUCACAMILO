@@ -485,11 +485,11 @@ p{
     
     }
     #contenido{
-        width: 50vw;
+        width: 45vw;
         height: 84vw;
         position: absolute;
         top: -20vw;
-        left:2.5vw;
+        left:5vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
