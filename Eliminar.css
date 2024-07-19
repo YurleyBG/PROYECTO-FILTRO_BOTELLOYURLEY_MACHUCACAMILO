@@ -328,8 +328,9 @@ a{
         justify-content: center;
         position: relative;
         top: 27vw;
-        width: 75vw;
+        width: 50vw;
         height: 18vw;
+        left: 11vw;
     }
     #imagenDelete{
         width: 7vw;

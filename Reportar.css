@@ -340,8 +340,9 @@ a{
         align-items: center;
         justify-content: center;
         position: relative;
-        top: 0.8vw;
-        width: 75vw;
+        top: 3vw;
+        width: 50vw;
+        left: 14vw;
         height: 18vw;
     }
     #imagenDelete{
