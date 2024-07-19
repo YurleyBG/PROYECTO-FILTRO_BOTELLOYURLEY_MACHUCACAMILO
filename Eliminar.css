@@ -97,9 +97,7 @@
     height: 15vw;
     margin-top:-2vw;
 }
-#botonn{
-    text-decoration: none;
-}
+
 .boton{
     position: relative;
     font-family: letraBold;
@@ -112,8 +110,9 @@
     background-color: #ff6f2c;
     font-size: 1.8vw;
     color: #fff;
-    left: 18vw;
+    left: 12vw;
     top: 1vw;
+    border: none;
 }
 #menuseleccion{
     position: relative;

@@ -40,34 +40,35 @@
                     <p id="textoDeIngreso">Por favor ingrese los datos del indicador que desea eliminar</p>
                 </div>
                  <!--bloque inputs -->
-                <div class="requerimientos">
-                    <div class="Inputs">
-                        <label for="Tipo">Indicador</label>
-                        <input id="casilla1" type="text">
-
-                        <label for="Tipo">Categoria</label>
-                        <select id="categoria">
-                            <option id="opciones" value="baja">baja</option>
-                            <option id="opciones" value="media">media</option>
-                            <option id="opciones" value="alta">alta</option>
-                        </select>
-                        <label for="Tipo" id="area">Área</label>
-                        <select name="Area" id="categoria">
-                            <option value="">Marketing</option>
-                            <option value="">Diseño</option>
-                            <option value="">Developers</option>
-                            <option value="">Gerencia</option>
-                            <option value="">Producción</option>
-                            <option value="">Otros</option>
-                        </select>
-                        
-                    </div>
-                     <!--bloque  botón -->
-                </div>
-                <a id="botonn" href="Eliminar.html">
-                    <div class="boton">Eliminar</div>
-                </a>
-            </div>
+                 <form action="">
+                    <div class="requerimientos">
+                        <div class="Inputs">
+                            <label for="Tipo">Indicador</label>
+                            <input id="casilla1" type="text" required>
+    
+                            <label for="Tipo">Categoria</label>
+                            <select id="categoria" required>
+                                <option id="opciones" value="baja">baja</option>
+                                <option id="opciones" value="media">media</option>
+                                <option id="opciones" value="alta">alta</option>
+                            </select>
+                            <label for="Tipo" id="area">Área</label>
+                            <select name="Area" id="categoria" required>
+                                <option value="">Marketing</option>
+                                <option value="">Diseño</option>
+                                <option value="">Developers</option>
+                                <option value="">Gerencia</option>
+                                <option value="">Producción</option>
+                                <option value="">Otros</option>
+                            </select>
+                            
+                        </div>
+                        <!--bloque  botón -->
+                        <input type="submit" value="Eliminar"   class="boton">
+                 </form>
+               
+                     
+               
 
         </div>
 
