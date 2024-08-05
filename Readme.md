@@ -26,7 +26,7 @@ La página  Web cuenta  con  6 opciones  principales:
 | 9 |Perfil| |
 | 10 |Añadir| |
 | 11|Eliminar| |
-| 12 |2Reportar| |
+| 12 |Reportar| |
 | 13 |Readme| |
 | 14| Pinctures| Imágenes|
 | 15 | Type font|  Tipo de letras|
