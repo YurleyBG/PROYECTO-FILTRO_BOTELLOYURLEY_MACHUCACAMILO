@@ -12,6 +12,34 @@ La página  Web cuenta  con  6 opciones  principales:
 5. **Ayuda**:  incluye opciones  que buscan  aportar  más información al usuario.
 6. **Perfil** : le permite al usuario  revisar  el  perfil  y asi mismo cuenta con la opción de cerrar sesión. 
 
+## Tabla De Contenido
+| Índice | Título |
+|--|------|
+| 1 | index1| 
+| 2 | index2| 
+| 3 | index3| 
+| 4 | index4| 
+| 5 | index5| 
+| 6 | index6| 
+| 7 | index7| 
+| 8 |Ayuda| 
+| 9 |Perfil| 
+| 10 |Añadir| 
+| 11|Eliminar| 
+| 12 |2Reportar| 
+| 13 |Readme| 
+| 14| Pinctures| 
+| 15 | Type font| 
+
+## Instalación
+ Deberas ejecutar el siguiente comando para clonar el repositorio y verlo desde tu maquina local:
+ 
+ Gith Bash
+
+~~~ 
+git clone  "link del repositorio"
+~~~
+al hacer esto se descargará  los datos del repositorio. puedes usar visual studio code  y descargar la extensión live server para abrir los archivos index.
 
 ## Tecnologias Utilizadas 
 
@@ -34,10 +62,6 @@ La página  Web cuenta  con  6 opciones  principales:
 * Media queries en cada una de las páginas.
 * Transiciones automaticas de algunas páginas .
 
-## Instrucciones de Uso
-
-1.  Descarga y abre los archivos en tu maquina local.
-2.  Clonar el repositorio y abrir en un servidor compatible.
 
 ## Créditos
 
