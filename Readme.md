@@ -13,23 +13,23 @@ La página  Web cuenta  con  6 opciones  principales:
 6. **Perfil** : le permite al usuario  revisar  el  perfil  y asi mismo cuenta con la opción de cerrar sesión. 
 
 ## Tabla De Contenido
-| Índice | Título |
-|--|------|
-| 1 | index1| 
-| 2 | index2| 
-| 3 | index3| 
-| 4 | index4| 
-| 5 | index5| 
-| 6 | index6| 
-| 7 | index7| 
-| 8 |Ayuda| 
-| 9 |Perfil| 
-| 10 |Añadir| 
-| 11|Eliminar| 
-| 12 |2Reportar| 
-| 13 |Readme| 
-| 14| Pinctures| 
-| 15 | Type font| 
+| Índice | Título |descripción|
+|--|------|-----|
+| 1 | index1| Página con logo|
+| 2 | index2| Página sin logo|
+| 3 | index3| Página con logo|
+| 4 | index4| Página Login|
+| 5 | index5| Página Bienvenida|
+| 6 | index6| Página con logo|
+| 7 | index7| Página principal|
+| 8 |Ayuda| |
+| 9 |Perfil| |
+| 10 |Añadir| |
+| 11|Eliminar| |
+| 12 |2Reportar| |
+| 13 |Readme| |
+| 14| Pinctures| Imágenes|
+| 15 | Type font|  Tipo de letras|
 
 ## Instalación
  Deberas ejecutar el siguiente comando para clonar el repositorio y verlo desde tu maquina local:
