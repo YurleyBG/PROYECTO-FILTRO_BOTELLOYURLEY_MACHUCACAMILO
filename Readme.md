@@ -65,4 +65,4 @@ al hacer esto se descargará  los datos del repositorio. puedes usar visual stud
 
 ## Créditos
 
-Este proyecto fue desarrolllado por yurley Botello y Camilo Machuca  como proyecto filtro de HTML y CSS.
+Este proyecto fue desarrollado por yurley Botello y Camilo Machuca como proyecto filtro de HTML y CSS.
